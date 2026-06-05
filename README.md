@@ -104,6 +104,11 @@ If you change the auth configuration, regenerate the auth tables:
 pnpm auth:schema
 ```
 
+## Documentation
+
+- [docs/architecture.md](docs/architecture.md) — high-level architecture and how the pieces fit together.
+- [docs/game-mechanics.md](docs/game-mechanics.md) — the game rules and product spec.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide and the engineering principles we follow. In short:
