@@ -6,16 +6,16 @@ This repository welcomes contributions from developers of all backgrounds and ex
 
 ## Tech stack
 
-| Area       | Choice                                                          |
-| ---------- | -------------------------------------------------------------- |
-| Framework  | [SvelteKit](https://svelte.dev/docs/kit) (Svelte 5, runes mode) |
-| Language   | [TypeScript](https://www.typescriptlang.org/)                  |
-| Styling    | [Tailwind CSS](https://tailwindcss.com/) v4                    |
+| Area       | Choice                                                                                 |
+| ---------- | -------------------------------------------------------------------------------------- |
+| Framework  | [SvelteKit](https://svelte.dev/docs/kit) (Svelte 5, runes mode)                        |
+| Language   | [TypeScript](https://www.typescriptlang.org/)                                          |
+| Styling    | [Tailwind CSS](https://tailwindcss.com/) v4                                            |
 | Database   | [PostgreSQL](https://www.postgresql.org/) via [Drizzle ORM](https://orm.drizzle.team/) |
-| Auth       | [Better Auth](https://www.better-auth.com/) (email & password) |
-| Testing    | [Vitest](https://vitest.dev/) (unit) + [Playwright](https://playwright.dev/) (e2e) |
-| Tooling    | ESLint, Prettier                                               |
-| Deployment | Node server (`@sveltejs/adapter-node`)                         |
+| Auth       | [Better Auth](https://www.better-auth.com/) (email & password)                         |
+| Testing    | [Vitest](https://vitest.dev/) (unit) + [Playwright](https://playwright.dev/) (e2e)     |
+| Tooling    | ESLint, Prettier                                                                       |
+| Deployment | Node server (`@sveltejs/adapter-node`)                                                 |
 
 ## Prerequisites
 
@@ -73,14 +73,14 @@ src/
 | Command          | What it does                                  |
 | ---------------- | --------------------------------------------- |
 | `pnpm dev`       | Start the dev server with hot reload          |
-| `pnpm build`     | Build the production app                       |
-| `pnpm preview`   | Preview the production build locally           |
-| `pnpm check`     | Type-check the project with `svelte-check`     |
-| `pnpm lint`      | Check formatting (Prettier) and lint (ESLint)  |
-| `pnpm format`    | Auto-format the codebase                       |
-| `pnpm test`      | Run unit and e2e tests                         |
-| `pnpm test:unit` | Run unit tests (Vitest)                        |
-| `pnpm test:e2e`  | Run end-to-end tests (Playwright)              |
+| `pnpm build`     | Build the production app                      |
+| `pnpm preview`   | Preview the production build locally          |
+| `pnpm check`     | Type-check the project with `svelte-check`    |
+| `pnpm lint`      | Check formatting (Prettier) and lint (ESLint) |
+| `pnpm format`    | Auto-format the codebase                      |
+| `pnpm test`      | Run unit and e2e tests                        |
+| `pnpm test:unit` | Run unit tests (Vitest)                       |
+| `pnpm test:e2e`  | Run end-to-end tests (Playwright)             |
 
 ### Database
 

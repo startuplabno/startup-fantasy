@@ -9,10 +9,10 @@ For how we write code, see [CONTRIBUTING.md](../CONTRIBUTING.md).
 The system has two halves that share one PostgreSQL database:
 
 - **SvelteKit** owns everything user-facing — sign-up, drafting an XI, locking,
-and serving pages.
+  and serving pages.
 - **[Novem](https://novem.io/)** owns the analytics and visualization;
-computing stats and rendering the leaderboard and score breakdowns, which are
-embedded back into the SvelteKit UI as iframes.
+  computing stats and rendering the leaderboard and score breakdowns, which are
+  embedded back into the SvelteKit UI as iframes.
 
 ```mermaid
 flowchart TD
@@ -45,14 +45,14 @@ flowchart TD
 
 ## Division of responsibility
 
-| Concern | Owner | Notes |
-| ------- | ----- | ----- |
-| Sign-up, sessions, identity | SvelteKit | Better Auth |
-| Draft, validation, lock | SvelteKit | Server endpoints + Drizzle |
-| Serving pages and app shell | SvelteKit | `adapter-node` |
-| Stat / score computation | Novem jobs | Scheduled runners with direct DB access |
-| Leaderboard & breakdown visuals | Novem plots/grids | Embedded as iframes in SvelteKit pages |
-| Source of truth (data) | PostgreSQL | Shared by both halves |
+| Concern                         | Owner             | Notes                                   |
+| ------------------------------- | ----------------- | --------------------------------------- |
+| Sign-up, sessions, identity     | SvelteKit         | Better Auth                             |
+| Draft, validation, lock         | SvelteKit         | Server endpoints + Drizzle              |
+| Serving pages and app shell     | SvelteKit         | `adapter-node`                          |
+| Stat / score computation        | Novem jobs        | Scheduled runners with direct DB access |
+| Leaderboard & breakdown visuals | Novem plots/grids | Embedded as iframes in SvelteKit pages  |
+| Source of truth (data)          | PostgreSQL        | Shared by both halves                   |
 
 The contract between the two halves is the **database schema**, not an API.
 SvelteKit writes game state (teams, selections, locks); Novem reads it,
@@ -61,16 +61,16 @@ and stable is what keeps these two systems decoupled.
 
 ## Tech stack
 
-| Concern        | Choice                  | Notes                                              |
-| -------------- | ----------------------- | -------------------------------------------------- |
-| Framework      | SvelteKit (Svelte 5)    | Runes mode is forced project-wide (`svelte.config.js`). |
-| Language       | TypeScript              | Strict; `pnpm check` runs `svelte-check`.          |
-| Styling        | Tailwind CSS v4         | With the typography and forms plugins.             |
-| Database       | PostgreSQL              | Local instance via Docker (`compose.yaml`).        |
-| ORM            | Drizzle                 | Schema in `src/lib/server/db/schema.ts`.           |
-| Auth           | Better Auth             | Email & password today; Google login planned (FR-1). |
-| Server runtime | Node (`adapter-node`)   | Builds to a standalone Node server.                |
-| Visualization  | Novem                   | Jobs compute stats; plots/grids render them.       |
+| Concern        | Choice                | Notes                                                   |
+| -------------- | --------------------- | ------------------------------------------------------- |
+| Framework      | SvelteKit (Svelte 5)  | Runes mode is forced project-wide (`svelte.config.js`). |
+| Language       | TypeScript            | Strict; `pnpm check` runs `svelte-check`.               |
+| Styling        | Tailwind CSS v4       | With the typography and forms plugins.                  |
+| Database       | PostgreSQL            | Local instance via Docker (`compose.yaml`).             |
+| ORM            | Drizzle               | Schema in `src/lib/server/db/schema.ts`.                |
+| Auth           | Better Auth           | Email & password today; Google login planned (FR-1).    |
+| Server runtime | Node (`adapter-node`) | Builds to a standalone Node server.                     |
+| Visualization  | Novem                 | Jobs compute stats; plots/grids render them.            |
 
 ## SvelteKit application
 
@@ -80,7 +80,7 @@ SvelteKit uses file-based routing under `src/routes/`. Each route can have:
 
 - `+page.svelte` — the UI component, rendered on server and hydrated on client.
 - `+page.server.ts` — server-only load functions and form actions (data access,
-validation).
+  validation).
 - `+server.ts` — JSON/HTTP endpoints when a route is an API rather than a page.
 
 Keep data access and validation in the server files; treat `.svelte` components
@@ -113,13 +113,13 @@ which is the fallback. See [FR-1](game-mechanics.md#fr-1--sign-up--identity).
 two of its building blocks:
 
 - **Jobs (runners)** — code (typically Python) kept in a Novem repo and run in
-isolated, scheduled Docker containers. These are where stat computation lives.
-A runner connects **directly to the PostgreSQL database**, reads raw match data
-and game state, computes the leaderboard and per-player/per-match breakdowns,
-and updates the corresponding Novem visualizations.
+  isolated, scheduled Docker containers. These are where stat computation lives.
+  A runner connects **directly to the PostgreSQL database**, reads raw match data
+  and game state, computes the leaderboard and per-player/per-match breakdowns,
+  and updates the corresponding Novem visualizations.
 - **Custom plots & grids** — the rendered visuals (a grid is a dashboard
-composed of plots). Each renders in its own iframe and can be shared publicly
-or scoped to the org, so SvelteKit pages embed them directly.
+  composed of plots). Each renders in its own iframe and can be shared publicly
+  or scoped to the org, so SvelteKit pages embed them directly.
 
 ```mermaid
 flowchart LR
@@ -142,8 +142,8 @@ properties of the job:
 
 - **Idempotent** — re-running a job on the same input produces the same result.
 - **Recomputable** — corrected input re-runs cleanly and overwrites stale
-totals. This is how we recover from bad feed data given there is **no admin
-UI** (see [User Roles](game-mechanics.md#4-user-roles)).
+  totals. This is how we recover from bad feed data given there is **no admin
+  UI** (see [User Roles](game-mechanics.md#4-user-roles)).
 
 > Why this split? Novem already provides scheduled compute with database access
 > plus a hosted, shareable visualization layer. Letting it own the analytics
@@ -158,9 +158,9 @@ PRD's [Data Model Hints](game-mechanics.md#8-data-model-hints). The defining
 decision there is the **separation of raw stats from computed points**:
 
 - `PlayerMatchStat` holds the raw facts from the data feed (goals, assists,
-cards, clean sheet, MotM).
+  cards, clean sheet, MotM).
 - `PlayerMatchScore` holds points derived from those facts via the scoring
-table.
+  table.
 
 Because points are always recomputable from stored raw stats, a Novem runner
 can patch bad feed data and re-run — which matters because v1 has no admin UI.
@@ -170,13 +170,13 @@ in a config/settings table, not hardcoded, so they can change without a deploy.
 ## Environments & deployment
 
 - **Local:** PostgreSQL via `pnpm db:start` (Docker), app via `pnpm dev`. See
-the [README](../README.md).
+  the [README](../README.md).
 - **Build:** `pnpm build` produces a Node server through `adapter-node`.
 - **Config:** environment variables (`DATABASE_URL`, `BETTER_AUTH_SECRET`,
-`ORIGIN`) — see `.env.example`. Never commit `.env`.
+  `ORIGIN`) — see `.env.example`. Never commit `.env`.
 - **Novem:** jobs are deployed from a Novem repo and scheduled (cron); the
-database connection and any secrets are supplied as job environment variables,
-never hardcoded.
+  database connection and any secrets are supplied as job environment variables,
+  never hardcoded.
 
 ## Where things live
 
