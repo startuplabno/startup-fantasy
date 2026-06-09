@@ -4,14 +4,19 @@ import { config } from './db/schema';
 import { RULES, type SquadRules } from '$lib/game/types';
 
 export interface GameConfig {
-	budgetCap: number;
-	ownershipCapPct: number;
-	deadlineAt: Date | null;
+	deadlineAt: Date;
 	transfersEnabled: boolean;
 	transfersPerGameweek: number;
 }
 
 const SINGLETON_ID = 1;
+
+/**
+ * Far-future default so an un-administered config behaves as "deadline open".
+ * The real deadline is set explicitly (seed/admin); this only avoids a NULL on
+ * first read, since the column is now NOT NULL.
+ */
+const DEFAULT_DEADLINE = new Date('2999-12-31T00:00:00Z');
 
 /** The single config row, creating it with defaults on first read. */
 export async function getConfig(): Promise<GameConfig> {
@@ -20,7 +25,7 @@ export async function getConfig(): Promise<GameConfig> {
 
 	const [created] = await db
 		.insert(config)
-		.values({ id: SINGLETON_ID })
+		.values({ id: SINGLETON_ID, deadlineAt: DEFAULT_DEADLINE })
 		.onConflictDoNothing()
 		.returning();
 	// A concurrent insert may have won the race; re-read to be safe.
@@ -29,12 +34,16 @@ export async function getConfig(): Promise<GameConfig> {
 	return existing;
 }
 
-/** Squad rules with the runtime-tunable budget applied over the static defaults. */
-export function effectiveRules(cfg: GameConfig): SquadRules {
-	return { ...RULES, budget: cfg.budgetCap };
+/**
+ * Squad rules. Budget and ownership cap are deploy-time constants now (see
+ * `$lib/game/types`), so the config row no longer overrides them. Kept as a
+ * function so callers have a single source for the active ruleset.
+ */
+export function effectiveRules(): SquadRules {
+	return RULES;
 }
 
-/** Whether the squad-lock deadline has passed. No deadline set means always open. */
+/** Whether the squad-lock deadline has passed. */
 export function isPastDeadline(cfg: GameConfig, now: Date = new Date()): boolean {
-	return cfg.deadlineAt !== null && now >= cfg.deadlineAt;
+	return now >= cfg.deadlineAt;
 }

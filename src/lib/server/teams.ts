@@ -8,7 +8,6 @@ export interface StoredTeam {
 	name: string;
 	status: 'draft' | 'locked';
 	lockedAt: Date | null;
-	totalPoints: number;
 	playerIds: string[];
 }
 
@@ -27,15 +26,14 @@ export async function getTeam(userId: string): Promise<StoredTeam | null> {
 		name: row.name,
 		status: row.status,
 		lockedAt: row.lockedAt,
-		totalPoints: row.totalPoints,
 		playerIds: selections.map((s) => s.playerId)
 	};
 }
 
 /**
  * Persist the user's XI as a locked team. Upserts the team row (one per user)
- * and replaces its selections, recording each player's value at lock time.
- * Callers must validate the squad first — this function only writes.
+ * and replaces its selections. Callers must validate the squad first — this
+ * function only writes.
  */
 export async function lockTeam(
 	userId: string,
@@ -57,8 +55,7 @@ export async function lockTeam(
 		await db.insert(teamSelection).values(
 			players.map((p) => ({
 				teamId: row.id,
-				playerId: p.id,
-				purchaseValue: p.value
+				playerId: p.id
 			}))
 		);
 	}

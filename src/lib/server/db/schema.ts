@@ -1,3 +1,4 @@
+import { sql } from 'drizzle-orm';
 import {
 	pgTable,
 	serial,
@@ -5,24 +6,25 @@ import {
 	text,
 	timestamp,
 	boolean,
-	primaryKey
+	numeric,
+	primaryKey,
+	uniqueIndex
 } from 'drizzle-orm/pg-core';
-import { user } from './auth.schema';
 
-/**
- * Single-row tunables (PRD §8). Values that must change without a deploy live
- * here, not hardcoded. Enforced as one row via `id` defaulting to 1.
- */
-export const config = pgTable('config', {
-	id: integer('id').primaryKey().default(1),
-	budgetCap: integer('budget_cap').notNull().default(100),
-	ownershipCapPct: integer('ownership_cap_pct').notNull().default(100),
-	deadlineAt: timestamp('deadline_at'),
-	transfersEnabled: boolean('transfers_enabled').notNull().default(false),
-	transfersPerGameweek: integer('transfers_per_gameweek').notNull().default(2)
+export const team = pgTable('team', {
+	id: serial('id').primaryKey(),
+	// Better Auth user id. Kept as plain text until `pnpm auth:schema` generates
+	// the user table, at which point this can become a real foreign key.
+	userId: text('user_id').notNull().unique(),
+	name: text('name').notNull(),
+	status: text('status', { enum: ['draft', 'locked'] })
+		.notNull()
+		.default('draft'),
+	lockedAt: timestamp('locked_at')
 });
 
 export const nationalTeam = pgTable('national_team', {
+	// ISO-3 country code from the feed (e.g. 'NOR', 'BRA').
 	id: text('id').primaryKey(),
 	name: text('name').notNull(),
 	status: text('status', { enum: ['in', 'eliminated'] })
@@ -33,13 +35,38 @@ export const nationalTeam = pgTable('national_team', {
 export const player = pgTable('player', {
 	id: text('id').primaryKey(),
 	name: text('name').notNull(),
-	nationId: text('nation_id')
+	nationalTeamId: text('national_team_id')
 		.notNull()
 		.references(() => nationalTeam.id),
 	position: text('position', { enum: ['GK', 'DEF', 'MID', 'FWD'] }).notNull(),
-	// Value in millions, counted against the budget.
-	value: integer('value').notNull()
+	// Millions, one decimal place. The postgres-js client parses numeric → number
+	// (see src/lib/server/db/index.ts); $type<number>() lines up the TS type.
+	value: numeric('value', { precision: 5, scale: 1 }).$type<number>().notNull()
 });
+
+export const teamSelection = pgTable(
+	'team_selection',
+	{
+		id: serial('id').primaryKey(),
+		teamId: integer('team_id')
+			.notNull()
+			.references(() => team.id, { onDelete: 'cascade' }),
+		playerId: text('player_id')
+			.notNull()
+			.references(() => player.id),
+		// NULL = open-ended. activeFrom = NULL means "since lock"; activeTo = NULL
+		// means "still active". Filled in only when transfers move a player in/out.
+		activeFrom: timestamp('active_from'),
+		activeTo: timestamp('active_to')
+	},
+	(t) => [
+		// Partial: at most one *currently-active* row per (team, player). A transferred-out
+		// row keeps its history with activeTo set, so a later re-pick is allowed.
+		uniqueIndex('team_selection_active_key')
+			.on(t.teamId, t.playerId)
+			.where(sql`${t.activeTo} IS NULL`)
+	]
+);
 
 export const match = pgTable('match', {
 	id: text('id').primaryKey(),
@@ -50,44 +77,15 @@ export const match = pgTable('match', {
 		.notNull()
 		.references(() => nationalTeam.id),
 	kickoffAt: timestamp('kickoff_at').notNull(),
-	status: text('status', { enum: ['scheduled', 'finished'] })
+	status: text('status', { enum: ['scheduled', 'live', 'finished'] })
 		.notNull()
 		.default('scheduled'),
 	gameweek: integer('gameweek').notNull()
 });
 
-export const team = pgTable('team', {
-	id: serial('id').primaryKey(),
-	userId: text('user_id')
-		.notNull()
-		.unique()
-		.references(() => user.id, { onDelete: 'cascade' }),
-	name: text('name').notNull(),
-	status: text('status', { enum: ['draft', 'locked'] })
-		.notNull()
-		.default('draft'),
-	lockedAt: timestamp('locked_at'),
-	// Cached sum of player points. Written by the Novem scoring job; read here.
-	totalPoints: integer('total_points').notNull().default(0)
-});
-
-export const teamSelection = pgTable('team_selection', {
-	id: serial('id').primaryKey(),
-	teamId: integer('team_id')
-		.notNull()
-		.references(() => team.id, { onDelete: 'cascade' }),
-	playerId: text('player_id')
-		.notNull()
-		.references(() => player.id),
-	// Player value at the moment of selection, so later price changes don't
-	// retroactively break a locked squad's budget.
-	purchaseValue: integer('purchase_value').notNull()
-});
-
-/**
- * Raw per-player-per-match facts from the data feed. Written by the Novem
- * ingest job. Kept separate from computed points so scoring stays recomputable.
- */
+// Raw per-player-per-match facts from the data feed. Kept separate from
+// player_match_score so points can be recomputed from these (no admin UI;
+// see docs/architecture.md "Data model" and PRD §8).
 export const playerMatchStat = pgTable(
 	'player_match_stat',
 	{
@@ -107,7 +105,8 @@ export const playerMatchStat = pgTable(
 	(t) => [primaryKey({ columns: [t.playerId, t.matchId] })]
 );
 
-/** Points derived from PlayerMatchStat × scoring table. Written by Novem. */
+// Derived points = stats × scoring table. Owned by the Novem runner;
+// re-running on the same stats must produce the same row (idempotent).
 export const playerMatchScore = pgTable(
 	'player_match_score',
 	{
@@ -117,9 +116,18 @@ export const playerMatchScore = pgTable(
 		matchId: text('match_id')
 			.notNull()
 			.references(() => match.id),
-		points: integer('points').notNull().default(0)
+		points: integer('points').notNull()
 	},
 	(t) => [primaryKey({ columns: [t.playerId, t.matchId] })]
 );
+
+// Singleton row (id=1). Squad rules (budget, ownership, positions) live in
+// `src/lib/game/types.ts` since they shouldn't change without a deploy.
+export const config = pgTable('config', {
+	id: serial('id').primaryKey(),
+	deadlineAt: timestamp('deadline_at').notNull(),
+	transfersEnabled: boolean('transfers_enabled').notNull().default(false),
+	transfersPerGameweek: integer('transfers_per_gameweek').notNull().default(2)
+});
 
 export * from './auth.schema';

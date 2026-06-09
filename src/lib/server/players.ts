@@ -16,7 +16,7 @@ export async function getAllPlayers(): Promise<Player[]> {
 	return db
 		.select(selection)
 		.from(player)
-		.innerJoin(nationalTeam, eq(player.nationId, nationalTeam.id))
+		.innerJoin(nationalTeam, eq(player.nationalTeamId, nationalTeam.id))
 		.orderBy(player.position, player.name);
 }
 
@@ -26,6 +26,6 @@ export async function getPlayersByIds(ids: string[]): Promise<Player[]> {
 	return db
 		.select(selection)
 		.from(player)
-		.innerJoin(nationalTeam, eq(player.nationId, nationalTeam.id))
+		.innerJoin(nationalTeam, eq(player.nationalTeamId, nationalTeam.id))
 		.where(inArray(player.id, ids));
 }

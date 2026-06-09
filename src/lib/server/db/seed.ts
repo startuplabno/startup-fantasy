@@ -26,7 +26,12 @@ function slug(name: string): string {
 }
 
 async function main() {
-	await db.insert(config).values({ id: 1 }).onConflictDoNothing();
+	// deadlineAt is NOT NULL; seed a far-future placeholder so it reads as "open"
+	// until an admin sets the real deadline.
+	await db
+		.insert(config)
+		.values({ id: 1, deadlineAt: new Date('2999-12-31T00:00:00Z') })
+		.onConflictDoNothing();
 
 	const nations = [...new Set(PLACEHOLDER_PLAYERS.map((p) => p.nation))];
 	await db
@@ -38,7 +43,7 @@ async function main() {
 		const row = {
 			id: p.id,
 			name: p.name,
-			nationId: slug(p.nation),
+			nationalTeamId: slug(p.nation),
 			position: p.position,
 			value: p.value
 		};
@@ -47,7 +52,12 @@ async function main() {
 			.values(row)
 			.onConflictDoUpdate({
 				target: player.id,
-				set: { name: row.name, nationId: row.nationId, position: row.position, value: row.value }
+				set: {
+					name: row.name,
+					nationalTeamId: row.nationalTeamId,
+					position: row.position,
+					value: row.value
+				}
 			});
 	}
 

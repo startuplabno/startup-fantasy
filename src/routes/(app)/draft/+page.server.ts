@@ -18,12 +18,12 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const [players, team, ownership] = await Promise.all([
 		getAllPlayers(),
 		getTeam(userId),
-		getOwnership(cfg, userId)
+		getOwnership(userId)
 	]);
 
 	return {
 		players,
-		rules: effectiveRules(cfg),
+		rules: effectiveRules(),
 		ownership: serializeOwnership(ownership),
 		deadlineAt: cfg.deadlineAt,
 		pastDeadline: isPastDeadline(cfg),
@@ -56,8 +56,8 @@ export const actions: Actions = {
 		}
 
 		const players = await getPlayersByIds(selectedIds);
-		const ownership = await getOwnership(cfg, userId);
-		const issues = validate(players, effectiveRules(cfg), ownership);
+		const ownership = await getOwnership(userId);
+		const issues = validate(players, effectiveRules(), ownership);
 		if (issues.length > 0) {
 			return fail(400, { teamName, message: issues.map((i) => i.message).join(' ') });
 		}

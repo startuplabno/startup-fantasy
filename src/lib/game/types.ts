@@ -51,3 +51,9 @@ export const RULES: SquadRules = {
 		FWD: { min: 1, max: 3 }
 	}
 };
+
+/**
+ * Ownership cap as a percentage of locked teams (PRD §6.1). Lives here with the
+ * other squad rules since it shouldn't change without a deploy. 100 = disabled.
+ */
+export const OWNERSHIP_CAP_PCT = 100;
