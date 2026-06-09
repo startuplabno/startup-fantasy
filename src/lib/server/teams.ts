@@ -1,12 +1,14 @@
 import { eq } from 'drizzle-orm';
 import { db } from './db';
 import { team, teamSelection } from './db/schema';
+import type { Player } from '$lib/game/types';
 
 export interface StoredTeam {
 	id: number;
 	name: string;
 	status: 'draft' | 'locked';
 	lockedAt: Date | null;
+	totalPoints: number;
 	playerIds: string[];
 }
 
@@ -25,29 +27,39 @@ export async function getTeam(userId: string): Promise<StoredTeam | null> {
 		name: row.name,
 		status: row.status,
 		lockedAt: row.lockedAt,
+		totalPoints: row.totalPoints,
 		playerIds: selections.map((s) => s.playerId)
 	};
 }
 
 /**
  * Persist the user's XI as a locked team. Upserts the team row (one per user)
- * and replaces its selections. Callers must validate the squad first — this
- * function only writes.
+ * and replaces its selections, recording each player's value at lock time.
+ * Callers must validate the squad first — this function only writes.
  */
-export async function lockTeam(userId: string, name: string, playerIds: string[]): Promise<void> {
+export async function lockTeam(
+	userId: string,
+	name: string,
+	players: Player[],
+	lockedAt: Date = new Date()
+): Promise<void> {
 	const [row] = await db
 		.insert(team)
-		.values({ userId, name, status: 'locked', lockedAt: new Date() })
+		.values({ userId, name, status: 'locked', lockedAt })
 		.onConflictDoUpdate({
 			target: team.userId,
-			set: { name, status: 'locked', lockedAt: new Date() }
+			set: { name, status: 'locked', lockedAt }
 		})
 		.returning({ id: team.id });
 
 	await db.delete(teamSelection).where(eq(teamSelection.teamId, row.id));
-	if (playerIds.length > 0) {
-		await db
-			.insert(teamSelection)
-			.values(playerIds.map((playerId) => ({ teamId: row.id, playerId })));
+	if (players.length > 0) {
+		await db.insert(teamSelection).values(
+			players.map((p) => ({
+				teamId: row.id,
+				playerId: p.id,
+				purchaseValue: p.value
+			}))
+		);
 	}
 }

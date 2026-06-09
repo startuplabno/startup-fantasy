@@ -38,7 +38,7 @@
 				</p>
 			</div>
 			<div class="text-right">
-				<div class="text-3xl font-bold text-green-700">0</div>
+				<div class="text-3xl font-bold text-green-700">{data.totalPoints}</div>
 				<div class="text-xs text-gray-500">total points</div>
 			</div>
 		</div>
@@ -63,7 +63,9 @@
 									<span class="font-medium">{player.name}</span>
 									<span class="ml-2 text-sm text-gray-500">{player.nation}</span>
 								</div>
-								<span class="text-sm text-gray-400">— pts</span>
+								<span class="text-sm font-medium text-gray-600"
+									>{data.points[player.id] ?? 0} pts</span
+								>
 							</li>
 						{/each}
 					</ul>

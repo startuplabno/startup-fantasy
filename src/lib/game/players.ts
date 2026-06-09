@@ -1,11 +1,12 @@
 import type { Player } from './types';
 
 /**
- * PLACEHOLDER player pool. Fictional names and made-up values so the draft
- * board renders before the real World Cup data feed lands. The feed will
- * populate these from the database (see docs/architecture.md "Data model").
+ * PLACEHOLDER player pool. Fictional names and made-up values, used to seed the
+ * database (see `src/lib/server/db/seed.ts`) and as a fixture in tests. The real
+ * pool is read from the database at runtime via `src/lib/server/players.ts`; the
+ * World Cup data feed will eventually populate it (see docs/architecture.md).
  */
-export const PLAYERS: Player[] = [
+export const PLACEHOLDER_PLAYERS: Player[] = [
 	// Norway
 	{ id: 'no-gk', name: 'Ola Hansen', nation: 'Norway', position: 'GK', value: 5 },
 	{ id: 'no-def1', name: 'Erik Berg', nation: 'Norway', position: 'DEF', value: 6 },
@@ -70,14 +71,3 @@ export const PLAYERS: Player[] = [
 	{ id: 'pt-mid2', name: 'Diogo Carvalho', nation: 'Portugal', position: 'MID', value: 8 },
 	{ id: 'pt-fwd', name: 'Francisco Lopes', nation: 'Portugal', position: 'FWD', value: 12 }
 ];
-
-const byId = new Map(PLAYERS.map((p) => [p.id, p]));
-
-export function getPlayer(id: string): Player | undefined {
-	return byId.get(id);
-}
-
-/** Resolve a list of ids to players, dropping any unknown ids. */
-export function getPlayers(ids: string[]): Player[] {
-	return ids.map((id) => byId.get(id)).filter((p): p is Player => p !== undefined);
-}

@@ -26,6 +26,17 @@ export interface SquadRules {
 }
 
 /**
+ * Per-player ownership picture used to enforce the ownership cap (PRD §6.1).
+ * `counts` maps a player id to how many *other* locked teams already own them;
+ * `cap` is the maximum a player may be owned before they are off-limits to new
+ * pickers. A cap of `Infinity` disables the rule.
+ */
+export interface Ownership {
+	counts: Record<string, number>;
+	cap: number;
+}
+
+/**
  * The authoritative squad rules. Mirrors docs/game-mechanics.md §6.1–6.2.
  * Keep these here so the UI and server validate against the same numbers.
  */
