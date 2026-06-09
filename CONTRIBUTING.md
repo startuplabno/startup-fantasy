@@ -43,9 +43,9 @@ In practice:
 
 - Prefer code that does one thing over code that does several things at once.
 - Untangle concerns that don't belong together. A function that fetches,
-validates, and renders is three things wearing one hat.
+  validates, and renders is three things wearing one hat.
 - Reach for the boring, obvious solution before the clever one. Clever code is
-a loan against future understanding.
+  a loan against future understanding.
 
 ### Locality of behavior
 
@@ -53,11 +53,11 @@ Code that changes together should live together. When you read a piece of code,
 you should be able to understand what it does without jumping across ten files.
 
 - Keep behavior close to where it is used. Co-locate the handler, its types,
-and its helpers rather than scattering them by "kind".
+  and its helpers rather than scattering them by "kind".
 - Prefer a small amount of obvious duplication over a far-away abstraction that
-couples unrelated callers.
+  couples unrelated callers.
 - A reader should be able to predict what a unit does from its name and its
-surroundings.
+  surroundings.
 
 ### Use the relevant NASA Rules (Power of Ten)
 
@@ -65,14 +65,14 @@ We borrow the parts of NASA/JPL's [Power of
 Ten](https://spinroot.com/gerard/pdf/P10.pdf) that fit a web app:
 
 - **Keep control flow simple.** No surprising recursion, no clever flow
-constructs. Loops with clear, finite bounds.
+  constructs. Loops with clear, finite bounds.
 - **Keep functions short.** A function should fit on a screen and do one job.
-If it doesn't fit, it's doing too much.
+  If it doesn't fit, it's doing too much.
 - **Limit the scope of data.** Declare things in the smallest scope that works.
-The fewer places that can touch state, the fewer places a bug can hide.
+  The fewer places that can touch state, the fewer places a bug can hide.
 - **Check return values and handle errors.** Don't ignore a `Result`, a thrown
-error, or a promise rejection. If you intentionally ignore something, say so in
-code.
+  error, or a promise rejection. If you intentionally ignore something, say so in
+  code.
 
 ### Use assertions to catch programming errors
 
@@ -81,11 +81,11 @@ Assertions document and enforce the invariants you believe are true. They turn
 state three layers down.
 
 - Assert on programming errors — things that should be impossible if the code
-is correct (a non-null value that is somehow null, an exhausted switch reaching
-a default, an index out of range).
+  is correct (a non-null value that is somehow null, an exhausted switch reaching
+  a default, an index out of range).
 - Do **not** use assertions for expected runtime conditions like bad user input
-or a failed network call. Those are normal control flow — validate and handle
-them.
+  or a failed network call. Those are normal control flow — validate and handle
+  them.
 - An assertion should have no side effects. It either holds or it crashes.
 
 ### Write integration tests
@@ -96,11 +96,11 @@ through to the database tells you the feature works; a unit test with five
 mocks tells you the mocks agree with each other.
 
 - Test at the boundary a user (or another system) actually touches: a route, an
-endpoint, a flow.
+  endpoint, a flow.
 - Use [Playwright](https://playwright.dev/) for end-to-end flows and
-[Vitest](https://vitest.dev/) for focused logic.
+  [Vitest](https://vitest.dev/) for focused logic.
 - Unit tests are still welcome for pure, tricky logic — just don't let mocks
-become the thing under test.
+  become the thing under test.
 
 ### Value explicit over implicit
 
@@ -108,9 +108,9 @@ Make intent visible. The reader should not have to infer what the code does
 from side effects or convention.
 
 - Prefer explicit arguments and return types over hidden globals and ambient
-state.
+  state.
 - Name things for what they are. Avoid magic numbers and unexplained constants.
 - Make the unusual obvious. If something is surprising, a one-line comment
-explaining _why_ (not _what_) is worth it.
+  explaining _why_ (not _what_) is worth it.
 - Be explicit about errors and edge cases rather than letting them fall through
-silently.
+  silently.
