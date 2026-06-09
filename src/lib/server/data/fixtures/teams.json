@@ -1,0 +1,6588 @@
+{
+	"source": "football-data.org v4 /competitions/WC/teams",
+	"fetchedAt": "2026-06-09",
+	"count": 48,
+	"teams": [
+		{
+			"id": 758,
+			"name": "Uruguay",
+			"tla": "URY",
+			"squad": [
+				{
+					"id": 3160,
+					"name": "Fernando Muslera",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 30210,
+					"name": "Santiago Mele",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 30386,
+					"name": "Sergio Rochet",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3165,
+					"name": "Guillermo Varela",
+					"position": "Defence"
+				},
+				{
+					"id": 28292,
+					"name": "Ronald Araújo",
+					"position": "Defence"
+				},
+				{
+					"id": 28326,
+					"name": "Sebastían Cáceres",
+					"position": "Defence"
+				},
+				{
+					"id": 28426,
+					"name": "Matías Viña",
+					"position": "Defence"
+				},
+				{
+					"id": 28740,
+					"name": "Joaquín Piquerez",
+					"position": "Defence"
+				},
+				{
+					"id": 28770,
+					"name": "Maximiliano Araújo",
+					"position": "Defence"
+				},
+				{
+					"id": 32754,
+					"name": "Mathías Olivera",
+					"position": "Defence"
+				},
+				{
+					"id": 32767,
+					"name": "Santiago Bueno",
+					"position": "Defence"
+				},
+				{
+					"id": 213277,
+					"name": "José Giménez",
+					"position": "Defence"
+				},
+				{
+					"id": 96,
+					"name": "Federico Valverde",
+					"position": "Midfield"
+				},
+				{
+					"id": 1244,
+					"name": "Giorgian De Arrascaeta",
+					"position": "Midfield"
+				},
+				{
+					"id": 2041,
+					"name": "Rodrigo Bentancur",
+					"position": "Midfield"
+				},
+				{
+					"id": 28549,
+					"name": "Manuel Ugarte",
+					"position": "Midfield"
+				},
+				{
+					"id": 28618,
+					"name": "Brian Rodríguez",
+					"position": "Midfield"
+				},
+				{
+					"id": 121007,
+					"name": "Rodrigo Zalazar",
+					"position": "Midfield"
+				},
+				{
+					"id": 122506,
+					"name": "Facundo Pellistri",
+					"position": "Midfield"
+				},
+				{
+					"id": 130957,
+					"name": "Emiliano Martínez",
+					"position": "Midfield"
+				},
+				{
+					"id": 152435,
+					"name": "Juan Sanabria",
+					"position": "Midfield"
+				},
+				{
+					"id": 168795,
+					"name": "Nicolas de la Cruz",
+					"position": "Midfield"
+				},
+				{
+					"id": 11206,
+					"name": "Rodrigo Aguirre",
+					"position": "Offence"
+				},
+				{
+					"id": 28612,
+					"name": "Darwin Núñez",
+					"position": "Offence"
+				},
+				{
+					"id": 28614,
+					"name": "Agustín Canobbio",
+					"position": "Offence"
+				},
+				{
+					"id": 112678,
+					"name": "Federico Viñas",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 759,
+			"name": "Germany",
+			"tla": "GER",
+			"squad": [
+				{
+					"id": 316,
+					"name": "Oliver Baumann",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 341,
+					"name": "Manuel Neuer",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 6491,
+					"name": "Alexander Nübel",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 149,
+					"name": "Jonathan Tah",
+					"position": "Defence"
+				},
+				{
+					"id": 379,
+					"name": "Waldemar Anton",
+					"position": "Defence"
+				},
+				{
+					"id": 3177,
+					"name": "Antonio Rüdiger",
+					"position": "Defence"
+				},
+				{
+					"id": 9905,
+					"name": "David Raum",
+					"position": "Defence"
+				},
+				{
+					"id": 75539,
+					"name": "Nico Schlotterbeck",
+					"position": "Defence"
+				},
+				{
+					"id": 142732,
+					"name": "Malick Thiaw",
+					"position": "Defence"
+				},
+				{
+					"id": 184533,
+					"name": "Nathaniel Brown",
+					"position": "Defence"
+				},
+				{
+					"id": 320,
+					"name": "Nadiem Amiri",
+					"position": "Midfield"
+				},
+				{
+					"id": 359,
+					"name": "Joshua Kimmich",
+					"position": "Midfield"
+				},
+				{
+					"id": 3181,
+					"name": "Leon Goretzka",
+					"position": "Midfield"
+				},
+				{
+					"id": 8273,
+					"name": "Pascal Groß",
+					"position": "Midfield"
+				},
+				{
+					"id": 19334,
+					"name": "Florian Wirtz",
+					"position": "Midfield"
+				},
+				{
+					"id": 101074,
+					"name": "Felix Kalu Nmecha",
+					"position": "Midfield"
+				},
+				{
+					"id": 128565,
+					"name": "Angelo Stiller",
+					"position": "Midfield"
+				},
+				{
+					"id": 144393,
+					"name": "Jamal Musiala",
+					"position": "Midfield"
+				},
+				{
+					"id": 202665,
+					"name": "Aleksandar Pavlović",
+					"position": "Midfield"
+				},
+				{
+					"id": 212636,
+					"name": "Assan Ouédraogo",
+					"position": "Midfield"
+				},
+				{
+					"id": 171,
+					"name": "Kai Havertz",
+					"position": "Offence"
+				},
+				{
+					"id": 3184,
+					"name": "Leroy Sané",
+					"position": "Offence"
+				},
+				{
+					"id": 6928,
+					"name": "Deniz Undav",
+					"position": "Offence"
+				},
+				{
+					"id": 123333,
+					"name": "Jamie Leweling",
+					"position": "Offence"
+				},
+				{
+					"id": 133547,
+					"name": "Nick Woltemade",
+					"position": "Offence"
+				},
+				{
+					"id": 133903,
+					"name": "Maximilian Beier",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 760,
+			"name": "Spain",
+			"tla": "ESP",
+			"squad": [
+				{
+					"id": 4832,
+					"name": "David Raya",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 32570,
+					"name": "Unai Simón",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 152506,
+					"name": "Joan García",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 7884,
+					"name": "Aymeric Laporte",
+					"position": "Defence"
+				},
+				{
+					"id": 15863,
+					"name": "Cucurella",
+					"position": "Defence"
+				},
+				{
+					"id": 16739,
+					"name": "Alejandro Grimaldo",
+					"position": "Defence"
+				},
+				{
+					"id": 81037,
+					"name": "Pedro Porro",
+					"position": "Defence"
+				},
+				{
+					"id": 101345,
+					"name": "Eric García",
+					"position": "Defence"
+				},
+				{
+					"id": 176745,
+					"name": "Marc Pubill",
+					"position": "Defence"
+				},
+				{
+					"id": 217540,
+					"name": "Pau Cubarsí",
+					"position": "Defence"
+				},
+				{
+					"id": 22,
+					"name": "Fabián Ruiz",
+					"position": "Midfield"
+				},
+				{
+					"id": 70,
+					"name": "Marcos Llorente",
+					"position": "Midfield"
+				},
+				{
+					"id": 3199,
+					"name": "Rodri",
+					"position": "Midfield"
+				},
+				{
+					"id": 7935,
+					"name": "Mikel Merino",
+					"position": "Midfield"
+				},
+				{
+					"id": 23132,
+					"name": "Dani Olmo",
+					"position": "Midfield"
+				},
+				{
+					"id": 33154,
+					"name": "Ferrán Torres",
+					"position": "Midfield"
+				},
+				{
+					"id": 115035,
+					"name": "Martín Zubimendi",
+					"position": "Midfield"
+				},
+				{
+					"id": 133860,
+					"name": "Pedri",
+					"position": "Midfield"
+				},
+				{
+					"id": 171992,
+					"name": "Pablo Gavira",
+					"position": "Midfield"
+				},
+				{
+					"id": 180137,
+					"name": "Mikel Oyarzabal",
+					"position": "Midfield"
+				},
+				{
+					"id": 213278,
+					"name": "Álex Baena",
+					"position": "Midfield"
+				},
+				{
+					"id": 32056,
+					"name": "Borja Iglesias",
+					"position": "Offence"
+				},
+				{
+					"id": 152505,
+					"name": "Yeremi Pino",
+					"position": "Offence"
+				},
+				{
+					"id": 157135,
+					"name": "Nico Williams",
+					"position": "Offence"
+				},
+				{
+					"id": 202283,
+					"name": "Lamine Yamal",
+					"position": "Offence"
+				},
+				{
+					"id": 273423,
+					"name": "Víctor Muñoz",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 761,
+			"name": "Paraguay",
+			"tla": "PAR",
+			"squad": [
+				{
+					"id": 28294,
+					"name": "Gastón Olveira",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 169622,
+					"name": "Roberto Fernández",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 270728,
+					"name": "Orlando Gill",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 1436,
+					"name": "Fabián Balbuena",
+					"position": "Defence"
+				},
+				{
+					"id": 1741,
+					"name": "Gustavo Gómez",
+					"position": "Defence"
+				},
+				{
+					"id": 8395,
+					"name": "Júnior Alonso",
+					"position": "Defence"
+				},
+				{
+					"id": 46491,
+					"name": "Omar Alderete",
+					"position": "Defence"
+				},
+				{
+					"id": 141752,
+					"name": "Juan Cáceres",
+					"position": "Defence"
+				},
+				{
+					"id": 172169,
+					"name": "Gustavo Velázquez",
+					"position": "Defence"
+				},
+				{
+					"id": 178832,
+					"name": "José Canale",
+					"position": "Defence"
+				},
+				{
+					"id": 274608,
+					"name": "Alexandro Maidana",
+					"position": "Defence"
+				},
+				{
+					"id": 46467,
+					"name": "Andrés Cubas",
+					"position": "Midfield"
+				},
+				{
+					"id": 57316,
+					"name": "Kaku",
+					"position": "Midfield"
+				},
+				{
+					"id": 76861,
+					"name": "Miguel Almirón",
+					"position": "Midfield"
+				},
+				{
+					"id": 119594,
+					"name": "Mauricio",
+					"position": "Midfield"
+				},
+				{
+					"id": 122397,
+					"name": "Braian Ojeda",
+					"position": "Midfield"
+				},
+				{
+					"id": 165622,
+					"name": "Matías Galarza",
+					"position": "Midfield"
+				},
+				{
+					"id": 168954,
+					"name": "Damian Bobadilla",
+					"position": "Midfield"
+				},
+				{
+					"id": 178951,
+					"name": "Diego Gómez",
+					"position": "Midfield"
+				},
+				{
+					"id": 14,
+					"name": "Antonio Sanabria",
+					"position": "Offence"
+				},
+				{
+					"id": 59693,
+					"name": "Gabriel Ávalos",
+					"position": "Offence"
+				},
+				{
+					"id": 114353,
+					"name": "Isidro Pitta",
+					"position": "Offence"
+				},
+				{
+					"id": 140647,
+					"name": "Ramón Sosa",
+					"position": "Offence"
+				},
+				{
+					"id": 168949,
+					"name": "Julio Enciso",
+					"position": "Offence"
+				},
+				{
+					"id": 191772,
+					"name": "Gustavo Caballero",
+					"position": "Offence"
+				},
+				{
+					"id": 250206,
+					"name": "Alex Arce",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 762,
+			"name": "Argentina",
+			"tla": "ARG",
+			"squad": [
+				{
+					"id": 6,
+					"name": "Géronimo Rulli",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3141,
+					"name": "Emiliano Martínez",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 46554,
+					"name": "Juan Musso",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3205,
+					"name": "Nicolás Otamendi",
+					"position": "Defence"
+				},
+				{
+					"id": 3208,
+					"name": "Nicolás Tagliafico",
+					"position": "Defence"
+				},
+				{
+					"id": 11667,
+					"name": "Gonzalo Montiel",
+					"position": "Defence"
+				},
+				{
+					"id": 45735,
+					"name": "Christian Romero",
+					"position": "Defence"
+				},
+				{
+					"id": 46125,
+					"name": "Facundo Medina",
+					"position": "Defence"
+				},
+				{
+					"id": 46451,
+					"name": "Lisandro Martínez",
+					"position": "Defence"
+				},
+				{
+					"id": 46452,
+					"name": "Nahuel Molina",
+					"position": "Defence"
+				},
+				{
+					"id": 82020,
+					"name": "Leonardo Balerdi",
+					"position": "Defence"
+				},
+				{
+					"id": 170261,
+					"name": "Valentin Barco",
+					"position": "Defence"
+				},
+				{
+					"id": 2127,
+					"name": "Rodrigo de Paul",
+					"position": "Midfield"
+				},
+				{
+					"id": 3214,
+					"name": "Leandro Paredes",
+					"position": "Midfield"
+				},
+				{
+					"id": 3216,
+					"name": "Giovani Lo Celso",
+					"position": "Midfield"
+				},
+				{
+					"id": 11720,
+					"name": "Exequiel Palacios",
+					"position": "Midfield"
+				},
+				{
+					"id": 45681,
+					"name": "Alexis Mac Allister",
+					"position": "Midfield"
+				},
+				{
+					"id": 79953,
+					"name": "Thiago Almada",
+					"position": "Midfield"
+				},
+				{
+					"id": 102603,
+					"name": "Enzo Fernández",
+					"position": "Midfield"
+				},
+				{
+					"id": 203511,
+					"name": "Nico Paz",
+					"position": "Midfield"
+				},
+				{
+					"id": 3218,
+					"name": "Lionel Messi",
+					"position": "Offence"
+				},
+				{
+					"id": 3220,
+					"name": "Lautaro Martínez",
+					"position": "Offence"
+				},
+				{
+					"id": 45680,
+					"name": "Nicolás González",
+					"position": "Offence"
+				},
+				{
+					"id": 98571,
+					"name": "Julián Álvarez",
+					"position": "Offence"
+				},
+				{
+					"id": 170698,
+					"name": "José Manuel López",
+					"position": "Offence"
+				},
+				{
+					"id": 171964,
+					"name": "Giuliano Simeone",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 763,
+			"name": "Ghana",
+			"tla": "GHA",
+			"squad": [
+				{
+					"id": 495,
+					"name": "Lawrence Ati-Zigi",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 137390,
+					"name": "Joseph Anang",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 277336,
+					"name": "Benjamin Asare",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 6499,
+					"name": "Abdul Rahman Baba",
+					"position": "Defence"
+				},
+				{
+					"id": 7442,
+					"name": "Derrick Luckassen",
+					"position": "Defence"
+				},
+				{
+					"id": 16340,
+					"name": "Gideon Mensah",
+					"position": "Defence"
+				},
+				{
+					"id": 25641,
+					"name": "Abdul Mumin",
+					"position": "Defence"
+				},
+				{
+					"id": 128235,
+					"name": "Jerome Opoku",
+					"position": "Defence"
+				},
+				{
+					"id": 147893,
+					"name": "Alidu Seidu",
+					"position": "Defence"
+				},
+				{
+					"id": 153924,
+					"name": "Marvin Senaya",
+					"position": "Defence"
+				},
+				{
+					"id": 191269,
+					"name": "Jonas Adjei Adjetey",
+					"position": "Defence"
+				},
+				{
+					"id": 202896,
+					"name": "Kojo Peprah Oppong",
+					"position": "Defence"
+				},
+				{
+					"id": 110,
+					"name": "Thomas Partey",
+					"position": "Midfield"
+				},
+				{
+					"id": 8470,
+					"name": "Elisha Owusu",
+					"position": "Midfield"
+				},
+				{
+					"id": 79960,
+					"name": "Kwasi Sibo",
+					"position": "Midfield"
+				},
+				{
+					"id": 175747,
+					"name": "Augustine Boakye",
+					"position": "Midfield"
+				},
+				{
+					"id": 262187,
+					"name": "Caleb Yirenkyi",
+					"position": "Midfield"
+				},
+				{
+					"id": 4417,
+					"name": "Antoine Semenyo",
+					"position": "Offence"
+				},
+				{
+					"id": 6389,
+					"name": "Brandon Thomas-Asante",
+					"position": "Offence"
+				},
+				{
+					"id": 7984,
+					"name": "Jordan Ayew",
+					"position": "Offence"
+				},
+				{
+					"id": 32629,
+					"name": "Iñaki Williams",
+					"position": "Offence"
+				},
+				{
+					"id": 142140,
+					"name": "Kamal Deen Sulemana",
+					"position": "Offence"
+				},
+				{
+					"id": 184726,
+					"name": "Ernest Nuamah",
+					"position": "Offence"
+				},
+				{
+					"id": 187162,
+					"name": "Abdul Issahaku",
+					"position": "Offence"
+				},
+				{
+					"id": 193596,
+					"name": "Christopher Bonsu Baah",
+					"position": "Offence"
+				},
+				{
+					"id": 218805,
+					"name": "Prince Adu",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 764,
+			"name": "Brazil",
+			"tla": "BRA",
+			"squad": [
+				{
+					"id": 1170,
+					"name": "Weverton",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 1795,
+					"name": "Alisson Becker",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3222,
+					"name": "Ederson",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 1081,
+					"name": "Roger Ibañez",
+					"position": "Defence"
+				},
+				{
+					"id": 1106,
+					"name": "Bremer",
+					"position": "Defence"
+				},
+				{
+					"id": 2028,
+					"name": "Alex Sandro",
+					"position": "Defence"
+				},
+				{
+					"id": 3225,
+					"name": "Marquinhos",
+					"position": "Defence"
+				},
+				{
+					"id": 6517,
+					"name": "Douglas Santos",
+					"position": "Defence"
+				},
+				{
+					"id": 7881,
+					"name": "Danilo Luiz da Silva",
+					"position": "Defence"
+				},
+				{
+					"id": 11192,
+					"name": "Léo Pereira",
+					"position": "Defence"
+				},
+				{
+					"id": 23128,
+					"name": "Gabriel Magalhães",
+					"position": "Defence"
+				},
+				{
+					"id": 179164,
+					"name": "Wesley",
+					"position": "Defence"
+				},
+				{
+					"id": 1543,
+					"name": "Lucas Paquetá",
+					"position": "Midfield"
+				},
+				{
+					"id": 1684,
+					"name": "Bruno Guimarães",
+					"position": "Midfield"
+				},
+				{
+					"id": 3231,
+					"name": "Casemiro",
+					"position": "Midfield"
+				},
+				{
+					"id": 8749,
+					"name": "Fabinho",
+					"position": "Midfield"
+				},
+				{
+					"id": 149704,
+					"name": "Danilo dos Santos de Oliveira",
+					"position": "Midfield"
+				},
+				{
+					"id": 1556,
+					"name": "Vinicius Junior",
+					"position": "Offence"
+				},
+				{
+					"id": 8491,
+					"name": "Neymar",
+					"position": "Offence"
+				},
+				{
+					"id": 30842,
+					"name": "Matheus Cunha",
+					"position": "Offence"
+				},
+				{
+					"id": 37428,
+					"name": "Raphinha",
+					"position": "Offence"
+				},
+				{
+					"id": 61450,
+					"name": "Martinelli",
+					"position": "Offence"
+				},
+				{
+					"id": 138230,
+					"name": "Thiago",
+					"position": "Offence"
+				},
+				{
+					"id": 145539,
+					"name": "Luiz Henrique",
+					"position": "Offence"
+				},
+				{
+					"id": 188487,
+					"name": "Endrick",
+					"position": "Offence"
+				},
+				{
+					"id": 203356,
+					"name": "Rayan",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 765,
+			"name": "Portugal",
+			"tla": "POR",
+			"squad": [
+				{
+					"id": 15899,
+					"name": "José Sá",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 32014,
+					"name": "Rui Silva",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 37362,
+					"name": "Diogo Costa",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 2000,
+					"name": "João Cancelo",
+					"position": "Defence"
+				},
+				{
+					"id": 10183,
+					"name": "Rúben Dias",
+					"position": "Defence"
+				},
+				{
+					"id": 15862,
+					"name": "Nélson Semedo",
+					"position": "Defence"
+				},
+				{
+					"id": 15905,
+					"name": "Diogo Dalot",
+					"position": "Defence"
+				},
+				{
+					"id": 91512,
+					"name": "Matheus Nunes",
+					"position": "Defence"
+				},
+				{
+					"id": 144570,
+					"name": "Nuno Mendes",
+					"position": "Defence"
+				},
+				{
+					"id": 145357,
+					"name": "Gonçalo Inácio",
+					"position": "Defence"
+				},
+				{
+					"id": 177842,
+					"name": "Tomas Araujo",
+					"position": "Defence"
+				},
+				{
+					"id": 178769,
+					"name": "Renato Veiga",
+					"position": "Defence"
+				},
+				{
+					"id": 3254,
+					"name": "Bernardo Silva",
+					"position": "Midfield"
+				},
+				{
+					"id": 3255,
+					"name": "Rúben Neves",
+					"position": "Midfield"
+				},
+				{
+					"id": 3257,
+					"name": "Bruno Fernandes",
+					"position": "Midfield"
+				},
+				{
+					"id": 3259,
+					"name": "Gonçalo Guedes",
+					"position": "Midfield"
+				},
+				{
+					"id": 140814,
+					"name": "Samuel Almeida Costa",
+					"position": "Midfield"
+				},
+				{
+					"id": 178722,
+					"name": "Vitinha",
+					"position": "Midfield"
+				},
+				{
+					"id": 190877,
+					"name": "Joao Neves",
+					"position": "Midfield"
+				},
+				{
+					"id": 44,
+					"name": "Cristiano Ronaldo",
+					"position": "Offence"
+				},
+				{
+					"id": 2074,
+					"name": "Pedro Neto",
+					"position": "Offence"
+				},
+				{
+					"id": 15892,
+					"name": "Rafael Leão",
+					"position": "Offence"
+				},
+				{
+					"id": 37332,
+					"name": "Trincão",
+					"position": "Offence"
+				},
+				{
+					"id": 39265,
+					"name": "João Félix",
+					"position": "Offence"
+				},
+				{
+					"id": 101431,
+					"name": "Gonçalo Ramos",
+					"position": "Offence"
+				},
+				{
+					"id": 150791,
+					"name": "Francisco Conceição",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 766,
+			"name": "Japan",
+			"tla": "JPN",
+			"squad": [
+				{
+					"id": 48729,
+					"name": "Keisuke Ōsako",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 118920,
+					"name": "Zion Suzuki",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 161335,
+					"name": "Tomoki Hayakawa",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3264,
+					"name": "Yūto Nagatomo",
+					"position": "Defence"
+				},
+				{
+					"id": 9034,
+					"name": "Takehiro Tomiyasu",
+					"position": "Defence"
+				},
+				{
+					"id": 48657,
+					"name": "Hiroki Ito",
+					"position": "Defence"
+				},
+				{
+					"id": 48670,
+					"name": "Yukinari Sugawara",
+					"position": "Defence"
+				},
+				{
+					"id": 48902,
+					"name": "Ko Itakura",
+					"position": "Defence"
+				},
+				{
+					"id": 49097,
+					"name": "Shogo Taniguchi",
+					"position": "Defence"
+				},
+				{
+					"id": 113230,
+					"name": "Ayumu Seko",
+					"position": "Defence"
+				},
+				{
+					"id": 113595,
+					"name": "Tsuyoshi Watanabe",
+					"position": "Defence"
+				},
+				{
+					"id": 181210,
+					"name": "Junnosuke Suzuki",
+					"position": "Defence"
+				},
+				{
+					"id": 3269,
+					"name": "Wataru Endō",
+					"position": "Midfield"
+				},
+				{
+					"id": 6716,
+					"name": "Daichi Kamada",
+					"position": "Midfield"
+				},
+				{
+					"id": 48555,
+					"name": "Takefusa Kubo",
+					"position": "Midfield"
+				},
+				{
+					"id": 48595,
+					"name": "Keito Nakamura",
+					"position": "Midfield"
+				},
+				{
+					"id": 49105,
+					"name": "Ao Tanaka",
+					"position": "Midfield"
+				},
+				{
+					"id": 114809,
+					"name": "Kaishu Sano",
+					"position": "Midfield"
+				},
+				{
+					"id": 145293,
+					"name": "Yuito Suzuki",
+					"position": "Midfield"
+				},
+				{
+					"id": 7531,
+					"name": "Ritsu Doan",
+					"position": "Offence"
+				},
+				{
+					"id": 44017,
+					"name": "Daizen Maeda",
+					"position": "Offence"
+				},
+				{
+					"id": 48659,
+					"name": "Koki Ogawa",
+					"position": "Offence"
+				},
+				{
+					"id": 49080,
+					"name": "Junya Ito",
+					"position": "Offence"
+				},
+				{
+					"id": 119460,
+					"name": "Ayase Ueda",
+					"position": "Offence"
+				},
+				{
+					"id": 247160,
+					"name": "Kento Shiogai",
+					"position": "Offence"
+				},
+				{
+					"id": 274204,
+					"name": "Keisuke Goto",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 769,
+			"name": "Mexico",
+			"tla": "MEX",
+			"squad": [
+				{
+					"id": 3285,
+					"name": "Guillermo Ochoa",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 39540,
+					"name": "Carlos Acevedo",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 177674,
+					"name": "José Rangel",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3298,
+					"name": "Jesús Gallardo",
+					"position": "Defence"
+				},
+				{
+					"id": 39246,
+					"name": "César Montes",
+					"position": "Defence"
+				},
+				{
+					"id": 39330,
+					"name": "Johan Vásquez",
+					"position": "Defence"
+				},
+				{
+					"id": 39546,
+					"name": "Jorge Sánchez",
+					"position": "Defence"
+				},
+				{
+					"id": 84096,
+					"name": "Israel Reyes",
+					"position": "Defence"
+				},
+				{
+					"id": 246145,
+					"name": "Mateo Chávez",
+					"position": "Defence"
+				},
+				{
+					"id": 3293,
+					"name": "Edson Álvarez",
+					"position": "Midfield"
+				},
+				{
+					"id": 38786,
+					"name": "Orbelín Pineda",
+					"position": "Midfield"
+				},
+				{
+					"id": 39587,
+					"name": "Luis Chávez",
+					"position": "Midfield"
+				},
+				{
+					"id": 39927,
+					"name": "Luis Romo",
+					"position": "Midfield"
+				},
+				{
+					"id": 76356,
+					"name": "Erik Lira",
+					"position": "Midfield"
+				},
+				{
+					"id": 99992,
+					"name": "Álvaro Fidalgo",
+					"position": "Midfield"
+				},
+				{
+					"id": 144457,
+					"name": "Brian Gutiérrez",
+					"position": "Midfield"
+				},
+				{
+					"id": 170442,
+					"name": "Obed Vargas",
+					"position": "Midfield"
+				},
+				{
+					"id": 264596,
+					"name": "Gilberto Mora",
+					"position": "Midfield"
+				},
+				{
+					"id": 3305,
+					"name": "Raúl Jiménez",
+					"position": "Offence"
+				},
+				{
+					"id": 39237,
+					"name": "Julián Quiñones",
+					"position": "Offence"
+				},
+				{
+					"id": 39472,
+					"name": "Roberto Alvarado",
+					"position": "Offence"
+				},
+				{
+					"id": 39635,
+					"name": "Santiago Giménez",
+					"position": "Offence"
+				},
+				{
+					"id": 39667,
+					"name": "Alexis Vega",
+					"position": "Offence"
+				},
+				{
+					"id": 39833,
+					"name": "Guillermo Martínez",
+					"position": "Offence"
+				},
+				{
+					"id": 98820,
+					"name": "César Huerta",
+					"position": "Offence"
+				},
+				{
+					"id": 229284,
+					"name": "Armando González",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 770,
+			"name": "England",
+			"tla": "ENG",
+			"squad": [
+				{
+					"id": 3309,
+					"name": "Jordan Pickford",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 5457,
+					"name": "Dean Henderson",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 153874,
+					"name": "James Trafford",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3313,
+					"name": "John Stones",
+					"position": "Defence"
+				},
+				{
+					"id": 4870,
+					"name": "Dan Burn",
+					"position": "Defence"
+				},
+				{
+					"id": 6317,
+					"name": "Ezri Konsa",
+					"position": "Defence"
+				},
+				{
+					"id": 56628,
+					"name": "Reece James",
+					"position": "Defence"
+				},
+				{
+					"id": 80775,
+					"name": "Djed Spence",
+					"position": "Defence"
+				},
+				{
+					"id": 118489,
+					"name": "Marc Guéhi",
+					"position": "Defence"
+				},
+				{
+					"id": 168712,
+					"name": "Valentino Livramento",
+					"position": "Defence"
+				},
+				{
+					"id": 176718,
+					"name": "Jarell Quansah",
+					"position": "Defence"
+				},
+				{
+					"id": 206743,
+					"name": "Nico O'Reilly",
+					"position": "Defence"
+				},
+				{
+					"id": 3320,
+					"name": "Jordan Henderson",
+					"position": "Midfield"
+				},
+				{
+					"id": 4032,
+					"name": "Eberechi Eze",
+					"position": "Midfield"
+				},
+				{
+					"id": 7848,
+					"name": "Anthony Gordon",
+					"position": "Midfield"
+				},
+				{
+					"id": 8215,
+					"name": "Declan Rice",
+					"position": "Midfield"
+				},
+				{
+					"id": 82140,
+					"name": "Morgan Rogers",
+					"position": "Midfield"
+				},
+				{
+					"id": 107330,
+					"name": "Elliot Anderson",
+					"position": "Midfield"
+				},
+				{
+					"id": 125010,
+					"name": "Jude Bellingham",
+					"position": "Midfield"
+				},
+				{
+					"id": 190797,
+					"name": "Kobbie Mainoo",
+					"position": "Midfield"
+				},
+				{
+					"id": 3331,
+					"name": "Marcus Rashford",
+					"position": "Offence"
+				},
+				{
+					"id": 4444,
+					"name": "Ollie Watkins",
+					"position": "Offence"
+				},
+				{
+					"id": 5453,
+					"name": "Ivan Toney",
+					"position": "Offence"
+				},
+				{
+					"id": 8004,
+					"name": "Harry Kane",
+					"position": "Offence"
+				},
+				{
+					"id": 99813,
+					"name": "Bukayo Saka",
+					"position": "Offence"
+				},
+				{
+					"id": 167720,
+					"name": "Noni Madueke",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 771,
+			"name": "United States",
+			"tla": "USA",
+			"squad": [
+				{
+					"id": 76936,
+					"name": "Matt Turner",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 113261,
+					"name": "Matt Freese",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 167172,
+					"name": "Chris Brady",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3927,
+					"name": "Antonee Robinson",
+					"position": "Defence"
+				},
+				{
+					"id": 3956,
+					"name": "Tim Ream",
+					"position": "Defence"
+				},
+				{
+					"id": 76866,
+					"name": "Miles Robinson",
+					"position": "Defence"
+				},
+				{
+					"id": 77185,
+					"name": "Auston Trusty",
+					"position": "Defence"
+				},
+				{
+					"id": 77803,
+					"name": "Mark McKenzie",
+					"position": "Defence"
+				},
+				{
+					"id": 82442,
+					"name": "Joseph Scally",
+					"position": "Defence"
+				},
+				{
+					"id": 97534,
+					"name": "Sergiño Dest",
+					"position": "Defence"
+				},
+				{
+					"id": 99856,
+					"name": "Chris Richards",
+					"position": "Defence"
+				},
+				{
+					"id": 177823,
+					"name": "Alex Freeman",
+					"position": "Defence"
+				},
+				{
+					"id": 6507,
+					"name": "Weston McKennie",
+					"position": "Midfield"
+				},
+				{
+					"id": 39023,
+					"name": "Alejandro Zendejas",
+					"position": "Midfield"
+				},
+				{
+					"id": 77029,
+					"name": "Cristian Roldan",
+					"position": "Midfield"
+				},
+				{
+					"id": 77596,
+					"name": "Tyler Adams",
+					"position": "Midfield"
+				},
+				{
+					"id": 113262,
+					"name": "Brenden Aaronson",
+					"position": "Midfield"
+				},
+				{
+					"id": 136733,
+					"name": "Gio Reyna",
+					"position": "Midfield"
+				},
+				{
+					"id": 140416,
+					"name": "Sebastian Berhalter",
+					"position": "Midfield"
+				},
+				{
+					"id": 144470,
+					"name": "Malik Tillman",
+					"position": "Midfield"
+				},
+				{
+					"id": 145,
+					"name": "Christian Pulisic",
+					"position": "Offence"
+				},
+				{
+					"id": 8492,
+					"name": "Tim Weah",
+					"position": "Offence"
+				},
+				{
+					"id": 10076,
+					"name": "Haji Wright",
+					"position": "Offence"
+				},
+				{
+					"id": 119731,
+					"name": "Ricardo Pepi",
+					"position": "Offence"
+				},
+				{
+					"id": 131040,
+					"name": "Folarin Balogun",
+					"position": "Offence"
+				},
+				{
+					"id": 192180,
+					"name": "Max Arfsten",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 772,
+			"name": "South Korea",
+			"tla": "KOR",
+			"squad": [
+				{
+					"id": 166683,
+					"name": "Seung-Gyu Kim",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 189673,
+					"name": "Bum-keun Song",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 189775,
+					"name": "Hyeon-woo Jo",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 168299,
+					"name": "Min-Jae Kim",
+					"position": "Defence"
+				},
+				{
+					"id": 171221,
+					"name": "Moon-hwan Kim",
+					"position": "Defence"
+				},
+				{
+					"id": 217715,
+					"name": "Han-bum Lee",
+					"position": "Defence"
+				},
+				{
+					"id": 243858,
+					"name": "Young-woo Seol",
+					"position": "Defence"
+				},
+				{
+					"id": 244407,
+					"name": "Jin-seob Park",
+					"position": "Defence"
+				},
+				{
+					"id": 246906,
+					"name": "Tae-hyeon Kim",
+					"position": "Defence"
+				},
+				{
+					"id": 254209,
+					"name": "Gi-hyuk Lee",
+					"position": "Defence"
+				},
+				{
+					"id": 282051,
+					"name": "Tae-seok Lee",
+					"position": "Defence"
+				},
+				{
+					"id": 295846,
+					"name": "Cho Wi-Je",
+					"position": "Defence"
+				},
+				{
+					"id": 151888,
+					"name": "Jens Castrop",
+					"position": "Midfield"
+				},
+				{
+					"id": 170561,
+					"name": "In-beom Hwang",
+					"position": "Midfield"
+				},
+				{
+					"id": 177318,
+					"name": "Dong-gyeong Lee",
+					"position": "Midfield"
+				},
+				{
+					"id": 179889,
+					"name": "Jae-sung Lee",
+					"position": "Midfield"
+				},
+				{
+					"id": 189741,
+					"name": "Jin-Gyu Kim",
+					"position": "Midfield"
+				},
+				{
+					"id": 189752,
+					"name": "Seung-Ho Paik",
+					"position": "Midfield"
+				},
+				{
+					"id": 213217,
+					"name": "Kang-in Lee",
+					"position": "Midfield"
+				},
+				{
+					"id": 217655,
+					"name": "Joon-ho Bae",
+					"position": "Midfield"
+				},
+				{
+					"id": 3354,
+					"name": "Hwang Heechan",
+					"position": "Offence"
+				},
+				{
+					"id": 170281,
+					"name": "Heung-min Son",
+					"position": "Offence"
+				},
+				{
+					"id": 189665,
+					"name": "Hyun-jun Yang",
+					"position": "Offence"
+				},
+				{
+					"id": 189762,
+					"name": "Gue-Sung Cho",
+					"position": "Offence"
+				},
+				{
+					"id": 191295,
+					"name": "Hyun-Gyu Oh",
+					"position": "Offence"
+				},
+				{
+					"id": 261683,
+					"name": "Ji-sung Eom",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 773,
+			"name": "France",
+			"tla": "FRA",
+			"squad": [
+				{
+					"id": 8316,
+					"name": "Brice Samba",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 8390,
+					"name": "Mike Maignan",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 188389,
+					"name": "Robin Risser",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 71,
+					"name": "Theo Hernández",
+					"position": "Defence"
+				},
+				{
+					"id": 3359,
+					"name": "Lucas Digne",
+					"position": "Defence"
+				},
+				{
+					"id": 3365,
+					"name": "Lucas Hernández",
+					"position": "Defence"
+				},
+				{
+					"id": 8499,
+					"name": "Jules Koundé",
+					"position": "Defence"
+				},
+				{
+					"id": 9541,
+					"name": "Dayot Upamecano",
+					"position": "Defence"
+				},
+				{
+					"id": 9542,
+					"name": "Ibrahima Konaté",
+					"position": "Defence"
+				},
+				{
+					"id": 80171,
+					"name": "William Saliba",
+					"position": "Defence"
+				},
+				{
+					"id": 82351,
+					"name": "Maxence Lacroix",
+					"position": "Defence"
+				},
+				{
+					"id": 152498,
+					"name": "Malo Gusto",
+					"position": "Defence"
+				},
+				{
+					"id": 3367,
+					"name": "N'Golo Kanté",
+					"position": "Midfield"
+				},
+				{
+					"id": 3368,
+					"name": "Adrien Rabiot",
+					"position": "Midfield"
+				},
+				{
+					"id": 8514,
+					"name": "Aurélien Tchouameni",
+					"position": "Midfield"
+				},
+				{
+					"id": 102395,
+					"name": "Manu Koné",
+					"position": "Midfield"
+				},
+				{
+					"id": 133242,
+					"name": "Rayan Cherki",
+					"position": "Midfield"
+				},
+				{
+					"id": 175701,
+					"name": "Maghnes Akliouche",
+					"position": "Midfield"
+				},
+				{
+					"id": 177522,
+					"name": "Desire Doue",
+					"position": "Midfield"
+				},
+				{
+					"id": 186089,
+					"name": "Warren Zaïre-Emery",
+					"position": "Midfield"
+				},
+				{
+					"id": 641,
+					"name": "Jean-Philippe Mateta",
+					"position": "Offence"
+				},
+				{
+					"id": 3373,
+					"name": "Ousmane Dembélé",
+					"position": "Offence"
+				},
+				{
+					"id": 3374,
+					"name": "Kylian Mbappé",
+					"position": "Offence"
+				},
+				{
+					"id": 8685,
+					"name": "Marcus Thuram-Ulien",
+					"position": "Offence"
+				},
+				{
+					"id": 113765,
+					"name": "Michael Olise",
+					"position": "Offence"
+				},
+				{
+					"id": 172762,
+					"name": "Bradley Barcola",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 774,
+			"name": "South Africa",
+			"tla": "RSA",
+			"squad": [
+				{
+					"id": 33986,
+					"name": "Ronwen Williams",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 34123,
+					"name": "Sipho Chaine",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 34456,
+					"name": "Ricardo Goss",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 33994,
+					"name": "Aubrey Modiba",
+					"position": "Defence"
+				},
+				{
+					"id": 34481,
+					"name": "Nkosinathi Sibisi",
+					"position": "Defence"
+				},
+				{
+					"id": 74101,
+					"name": "Khuliso Mudau",
+					"position": "Defence"
+				},
+				{
+					"id": 217832,
+					"name": "Olwethu Makhanya",
+					"position": "Defence"
+				},
+				{
+					"id": 245836,
+					"name": "Bradley Cross",
+					"position": "Defence"
+				},
+				{
+					"id": 277223,
+					"name": "Samukelo Kabini",
+					"position": "Defence"
+				},
+				{
+					"id": 279850,
+					"name": "Ime Okon",
+					"position": "Defence"
+				},
+				{
+					"id": 285992,
+					"name": "Mbekezeli Mbokazi",
+					"position": "Defence"
+				},
+				{
+					"id": 286005,
+					"name": "Khulumani Ndamane",
+					"position": "Defence"
+				},
+				{
+					"id": 287754,
+					"name": "Tholo Matuludi",
+					"position": "Defence"
+				},
+				{
+					"id": 33954,
+					"name": "Themba Zwane",
+					"position": "Midfield"
+				},
+				{
+					"id": 34012,
+					"name": "Teboho Mokoena",
+					"position": "Midfield"
+				},
+				{
+					"id": 133788,
+					"name": "Sphephelo Sithole",
+					"position": "Midfield"
+				},
+				{
+					"id": 147928,
+					"name": "Jayden Adams",
+					"position": "Midfield"
+				},
+				{
+					"id": 245495,
+					"name": "Thapelo Maseko",
+					"position": "Midfield"
+				},
+				{
+					"id": 277299,
+					"name": "Thalente Mbatha",
+					"position": "Midfield"
+				},
+				{
+					"id": 286003,
+					"name": "Kamogelo Sebelebele",
+					"position": "Midfield"
+				},
+				{
+					"id": 34760,
+					"name": "Lyle Foster",
+					"position": "Offence"
+				},
+				{
+					"id": 118915,
+					"name": "Oswin Appollis",
+					"position": "Offence"
+				},
+				{
+					"id": 124636,
+					"name": "Iqraam Rayners",
+					"position": "Offence"
+				},
+				{
+					"id": 245511,
+					"name": "Evidence Makgopa",
+					"position": "Offence"
+				},
+				{
+					"id": 270771,
+					"name": "Relebohile Mofokeng",
+					"position": "Offence"
+				},
+				{
+					"id": 287753,
+					"name": "Tshepang Moremi",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 778,
+			"name": "Algeria",
+			"tla": "ALG",
+			"squad": [
+				{
+					"id": 3871,
+					"name": "Luca Zidane",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 130440,
+					"name": "Oussama Benbout",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 171469,
+					"name": "Melvin Mastil",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 19,
+					"name": "Aïssa Mandi",
+					"position": "Defence"
+				},
+				{
+					"id": 8642,
+					"name": "Rayan Aït Nouri",
+					"position": "Defence"
+				},
+				{
+					"id": 8805,
+					"name": "Ramy Bensebaini",
+					"position": "Defence"
+				},
+				{
+					"id": 116150,
+					"name": "Samir Chergui",
+					"position": "Defence"
+				},
+				{
+					"id": 147891,
+					"name": "Jaouen Hadjam",
+					"position": "Defence"
+				},
+				{
+					"id": 160756,
+					"name": "Rafik Belghali",
+					"position": "Defence"
+				},
+				{
+					"id": 245545,
+					"name": "Zinédine Belaïd",
+					"position": "Defence"
+				},
+				{
+					"id": 245574,
+					"name": "Amine Tougai",
+					"position": "Defence"
+				},
+				{
+					"id": 295347,
+					"name": "Achref Abada",
+					"position": "Defence"
+				},
+				{
+					"id": 6503,
+					"name": "Nabil Bentaleb",
+					"position": "Midfield"
+				},
+				{
+					"id": 8466,
+					"name": "Houssem Aouar",
+					"position": "Midfield"
+				},
+				{
+					"id": 123508,
+					"name": "Hicham Boudaoui",
+					"position": "Midfield"
+				},
+				{
+					"id": 124715,
+					"name": "Ramiz Zerrouki",
+					"position": "Midfield"
+				},
+				{
+					"id": 178658,
+					"name": "Fares Chaïbi",
+					"position": "Midfield"
+				},
+				{
+					"id": 202532,
+					"name": "Ibrahim Maza",
+					"position": "Midfield"
+				},
+				{
+					"id": 261523,
+					"name": "Yacine Titraoui",
+					"position": "Midfield"
+				},
+				{
+					"id": 293057,
+					"name": "Adil Boulbina",
+					"position": "Midfield"
+				},
+				{
+					"id": 8069,
+					"name": "Riyad Mahrez",
+					"position": "Offence"
+				},
+				{
+					"id": 8476,
+					"name": "Amine Gouiri",
+					"position": "Offence"
+				},
+				{
+					"id": 180827,
+					"name": "Mohammed Amoura",
+					"position": "Offence"
+				},
+				{
+					"id": 192676,
+					"name": "Nadhir Benbouali",
+					"position": "Offence"
+				},
+				{
+					"id": 244466,
+					"name": "Anis Moussa",
+					"position": "Offence"
+				},
+				{
+					"id": 245324,
+					"name": "Farés Ghedjemis",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 779,
+			"name": "Australia",
+			"tla": "AUS",
+			"squad": [
+				{
+					"id": 3403,
+					"name": "Maty Ryan",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 4697,
+					"name": "Paul Izzo",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 177427,
+					"name": "Patrick Beach",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3407,
+					"name": "Aziz Behich",
+					"position": "Defence"
+				},
+				{
+					"id": 3410,
+					"name": "Miloš Degenek",
+					"position": "Defence"
+				},
+				{
+					"id": 4563,
+					"name": "Kai Trewin",
+					"position": "Defence"
+				},
+				{
+					"id": 4795,
+					"name": "Jacob Italiano",
+					"position": "Defence"
+				},
+				{
+					"id": 5432,
+					"name": "Cameron Burgess",
+					"position": "Defence"
+				},
+				{
+					"id": 11636,
+					"name": "Harry Souttar",
+					"position": "Defence"
+				},
+				{
+					"id": 56254,
+					"name": "Jason Geria",
+					"position": "Defence"
+				},
+				{
+					"id": 176299,
+					"name": "Jordan Bos",
+					"position": "Defence"
+				},
+				{
+					"id": 176730,
+					"name": "Alessandro Circati",
+					"position": "Defence"
+				},
+				{
+					"id": 270733,
+					"name": "Lucas Herrington",
+					"position": "Defence"
+				},
+				{
+					"id": 3420,
+					"name": "Mathew Leckie",
+					"position": "Midfield"
+				},
+				{
+					"id": 3421,
+					"name": "Jackson Irvine",
+					"position": "Midfield"
+				},
+				{
+					"id": 4635,
+					"name": "Connor Metcalfe",
+					"position": "Midfield"
+				},
+				{
+					"id": 7528,
+					"name": "Ajdin Hrustic",
+					"position": "Midfield"
+				},
+				{
+					"id": 8053,
+					"name": "Aiden O'Neill",
+					"position": "Midfield"
+				},
+				{
+					"id": 45143,
+					"name": "Awer Mabil",
+					"position": "Midfield"
+				},
+				{
+					"id": 76250,
+					"name": "Cameron Devlin",
+					"position": "Midfield"
+				},
+				{
+					"id": 263718,
+					"name": "Paul Okon-Engstler",
+					"position": "Midfield"
+				},
+				{
+					"id": 141451,
+					"name": "Mohamed Toure",
+					"position": "Offence"
+				},
+				{
+					"id": 167783,
+					"name": "Nishan Velupillay",
+					"position": "Offence"
+				},
+				{
+					"id": 175891,
+					"name": "Cristian Volpato",
+					"position": "Offence"
+				},
+				{
+					"id": 176991,
+					"name": "Nestor Irankunda",
+					"position": "Offence"
+				},
+				{
+					"id": 181753,
+					"name": "Tete Yengi",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 783,
+			"name": "New Zealand",
+			"tla": "NZL",
+			"squad": [
+				{
+					"id": 48418,
+					"name": "Max Crocombe",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 80167,
+					"name": "Michael Woud",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 176204,
+					"name": "Alex Paulsen",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 4690,
+					"name": "Liberato Cacace",
+					"position": "Defence"
+				},
+				{
+					"id": 11392,
+					"name": "Tommy Smith",
+					"position": "Defence"
+				},
+				{
+					"id": 77036,
+					"name": "Michael Boxall",
+					"position": "Defence"
+				},
+				{
+					"id": 111787,
+					"name": "Francis De Vries",
+					"position": "Defence"
+				},
+				{
+					"id": 113754,
+					"name": "Callan Elliot",
+					"position": "Defence"
+				},
+				{
+					"id": 125116,
+					"name": "Tim Payne",
+					"position": "Defence"
+				},
+				{
+					"id": 146549,
+					"name": "Nando Pijnaker",
+					"position": "Defence"
+				},
+				{
+					"id": 176993,
+					"name": "Finn Surman",
+					"position": "Defence"
+				},
+				{
+					"id": 214425,
+					"name": "Tyler Bindon",
+					"position": "Defence"
+				},
+				{
+					"id": 4680,
+					"name": "Alex Rufer",
+					"position": "Midfield"
+				},
+				{
+					"id": 4684,
+					"name": "Sarpreet Singh",
+					"position": "Midfield"
+				},
+				{
+					"id": 7723,
+					"name": "Ryan Thomas",
+					"position": "Midfield"
+				},
+				{
+					"id": 125117,
+					"name": "Callum McCowatt",
+					"position": "Midfield"
+				},
+				{
+					"id": 144646,
+					"name": "Joe Bell",
+					"position": "Midfield"
+				},
+				{
+					"id": 156513,
+					"name": "Marko Stamenic",
+					"position": "Midfield"
+				},
+				{
+					"id": 177602,
+					"name": "Ben Old",
+					"position": "Midfield"
+				},
+				{
+					"id": 4593,
+					"name": "Kosta Barbarouses",
+					"position": "Offence"
+				},
+				{
+					"id": 8057,
+					"name": "Chris Wood",
+					"position": "Offence"
+				},
+				{
+					"id": 82829,
+					"name": "Ben Waine",
+					"position": "Offence"
+				},
+				{
+					"id": 118981,
+					"name": "Elijah Just",
+					"position": "Offence"
+				},
+				{
+					"id": 185023,
+					"name": "Matthew Garbett",
+					"position": "Offence"
+				},
+				{
+					"id": 218039,
+					"name": "Lachlan Bayliss",
+					"position": "Offence"
+				},
+				{
+					"id": 261259,
+					"name": "Jesse Randall",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 788,
+			"name": "Switzerland",
+			"tla": "SUI",
+			"squad": [
+				{
+					"id": 334,
+					"name": "Gregor Kobel",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 9534,
+					"name": "Yvon Mvogo",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 205190,
+					"name": "Marvin Keller",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 143,
+					"name": "Manuel Akanji",
+					"position": "Defence"
+				},
+				{
+					"id": 1745,
+					"name": "Ricardo Rodriguez",
+					"position": "Defence"
+				},
+				{
+					"id": 2114,
+					"name": "Silvan Widmer",
+					"position": "Defence"
+				},
+				{
+					"id": 3475,
+					"name": "Nico Elvedi",
+					"position": "Defence"
+				},
+				{
+					"id": 30823,
+					"name": "Eray Cömert",
+					"position": "Defence"
+				},
+				{
+					"id": 50215,
+					"name": "Miro Muheim",
+					"position": "Defence"
+				},
+				{
+					"id": 169297,
+					"name": "Aurele Amenda",
+					"position": "Defence"
+				},
+				{
+					"id": 176711,
+					"name": "Luca Jaquez",
+					"position": "Defence"
+				},
+				{
+					"id": 1841,
+					"name": "Remo Freuler",
+					"position": "Midfield"
+				},
+				{
+					"id": 3477,
+					"name": "Granit Xhaka",
+					"position": "Midfield"
+				},
+				{
+					"id": 6687,
+					"name": "Denis Zakaria",
+					"position": "Midfield"
+				},
+				{
+					"id": 16265,
+					"name": "Michel Aebischer",
+					"position": "Midfield"
+				},
+				{
+					"id": 16275,
+					"name": "Djibril Sow",
+					"position": "Midfield"
+				},
+				{
+					"id": 16281,
+					"name": "Christian Fassnacht",
+					"position": "Midfield"
+				},
+				{
+					"id": 31913,
+					"name": "Ruben Vargas",
+					"position": "Midfield"
+				},
+				{
+					"id": 144909,
+					"name": "Ardon Jasari",
+					"position": "Midfield"
+				},
+				{
+					"id": 152692,
+					"name": "Fabian Rieder",
+					"position": "Midfield"
+				},
+				{
+					"id": 212309,
+					"name": "Johan Manzambi",
+					"position": "Midfield"
+				},
+				{
+					"id": 3483,
+					"name": "Breel Embolo",
+					"position": "Offence"
+				},
+				{
+					"id": 16058,
+					"name": "Noah Okafor",
+					"position": "Offence"
+				},
+				{
+					"id": 30780,
+					"name": "Cédric Itten",
+					"position": "Offence"
+				},
+				{
+					"id": 77641,
+					"name": "Dan Ndoye",
+					"position": "Offence"
+				},
+				{
+					"id": 122313,
+					"name": "Zeki Amdouni",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 791,
+			"name": "Ecuador",
+			"tla": "ECU",
+			"squad": [
+				{
+					"id": 24545,
+					"name": "Hernán Galíndez",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 24881,
+					"name": "Gonzalo Valle",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 169139,
+					"name": "Moisés Ramírez",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 24673,
+					"name": "Ángelo Preciado",
+					"position": "Defence"
+				},
+				{
+					"id": 24740,
+					"name": "Félix Torres",
+					"position": "Defence"
+				},
+				{
+					"id": 32642,
+					"name": "Pervis Estupiñán",
+					"position": "Defence"
+				},
+				{
+					"id": 114102,
+					"name": "William Pacho",
+					"position": "Defence"
+				},
+				{
+					"id": 114331,
+					"name": "Jackson Porozo",
+					"position": "Defence"
+				},
+				{
+					"id": 125674,
+					"name": "Piero Hincapié",
+					"position": "Defence"
+				},
+				{
+					"id": 178928,
+					"name": "Joel Ordoñez",
+					"position": "Defence"
+				},
+				{
+					"id": 192819,
+					"name": "Yaimar Medina",
+					"position": "Defence"
+				},
+				{
+					"id": 24670,
+					"name": "Alan Franco",
+					"position": "Midfield"
+				},
+				{
+					"id": 24988,
+					"name": "Jordy Alcívar",
+					"position": "Midfield"
+				},
+				{
+					"id": 56066,
+					"name": "Gonzalo Plata",
+					"position": "Midfield"
+				},
+				{
+					"id": 121103,
+					"name": "Moisés Caicedo",
+					"position": "Midfield"
+				},
+				{
+					"id": 166131,
+					"name": "Pedro Vite",
+					"position": "Midfield"
+				},
+				{
+					"id": 179174,
+					"name": "Alan Minda",
+					"position": "Midfield"
+				},
+				{
+					"id": 205684,
+					"name": "Ray Paez",
+					"position": "Midfield"
+				},
+				{
+					"id": 212692,
+					"name": "Denil Castillo",
+					"position": "Midfield"
+				},
+				{
+					"id": 24562,
+					"name": "Jordy Caicedo",
+					"position": "Offence"
+				},
+				{
+					"id": 40009,
+					"name": "Enner Valencia",
+					"position": "Offence"
+				},
+				{
+					"id": 98549,
+					"name": "John Yeboah",
+					"position": "Offence"
+				},
+				{
+					"id": 178940,
+					"name": "Anthony Valencia",
+					"position": "Offence"
+				},
+				{
+					"id": 187375,
+					"name": "Nilson Angulo",
+					"position": "Offence"
+				},
+				{
+					"id": 189975,
+					"name": "Kevin Rodríguez",
+					"position": "Offence"
+				},
+				{
+					"id": 215510,
+					"name": "Jeremy",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 792,
+			"name": "Sweden",
+			"tla": "SWE",
+			"squad": [
+				{
+					"id": 3484,
+					"name": "Kristoffer Nordfeldt",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 149732,
+					"name": "Viktor Johansson",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 180671,
+					"name": "Jacob Widell Zetterström",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3492,
+					"name": "Victor Nilsson-Lindelöf",
+					"position": "Defence"
+				},
+				{
+					"id": 31019,
+					"name": "Carl Starfelt",
+					"position": "Defence"
+				},
+				{
+					"id": 31531,
+					"name": "Gabriel Gudmundsson",
+					"position": "Defence"
+				},
+				{
+					"id": 31560,
+					"name": "Hjalmar Ekdal",
+					"position": "Defence"
+				},
+				{
+					"id": 31926,
+					"name": "Eric Smith",
+					"position": "Defence"
+				},
+				{
+					"id": 145937,
+					"name": "Daniel Svensson",
+					"position": "Defence"
+				},
+				{
+					"id": 166538,
+					"name": "Gustaf Lagerbielke",
+					"position": "Defence"
+				},
+				{
+					"id": 167031,
+					"name": "Isak Hien",
+					"position": "Defence"
+				},
+				{
+					"id": 167409,
+					"name": "Herman Johansson",
+					"position": "Defence"
+				},
+				{
+					"id": 192811,
+					"name": "Elliot Stroud",
+					"position": "Defence"
+				},
+				{
+					"id": 3500,
+					"name": "Ken Sema",
+					"position": "Midfield"
+				},
+				{
+					"id": 15354,
+					"name": "Mattias Svanberg",
+					"position": "Midfield"
+				},
+				{
+					"id": 31065,
+					"name": "Jesper Karlström",
+					"position": "Midfield"
+				},
+				{
+					"id": 145613,
+					"name": "Yasin Ayari",
+					"position": "Midfield"
+				},
+				{
+					"id": 180627,
+					"name": "Besfort Zeneli",
+					"position": "Midfield"
+				},
+				{
+					"id": 180673,
+					"name": "Taha Ali",
+					"position": "Midfield"
+				},
+				{
+					"id": 193622,
+					"name": "Lucas Bergvall",
+					"position": "Midfield"
+				},
+				{
+					"id": 6486,
+					"name": "Alexander Isak",
+					"position": "Offence"
+				},
+				{
+					"id": 8279,
+					"name": "Viktor Gyökeres",
+					"position": "Offence"
+				},
+				{
+					"id": 24083,
+					"name": "Gustaf Nilsson",
+					"position": "Offence"
+				},
+				{
+					"id": 72511,
+					"name": "Benjamin Nygren",
+					"position": "Offence"
+				},
+				{
+					"id": 111622,
+					"name": "Alexander Bernhardsson",
+					"position": "Offence"
+				},
+				{
+					"id": 166376,
+					"name": "Anthony Elanga",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 798,
+			"name": "Czechia",
+			"tla": "CZE",
+			"squad": [
+				{
+					"id": 120246,
+					"name": "Jindřich Staněk",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 136350,
+					"name": "Matej Kovar",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 146753,
+					"name": "Lukáš Horníček",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 62493,
+					"name": "Ladislav Krejčí",
+					"position": "Defence"
+				},
+				{
+					"id": 62536,
+					"name": "Jaroslav Zelený",
+					"position": "Defence"
+				},
+				{
+					"id": 62631,
+					"name": "Vladimir Coufal",
+					"position": "Defence"
+				},
+				{
+					"id": 62769,
+					"name": "Tomáš Holeš",
+					"position": "Defence"
+				},
+				{
+					"id": 127813,
+					"name": "David Zima",
+					"position": "Defence"
+				},
+				{
+					"id": 146716,
+					"name": "David Jurásek",
+					"position": "Defence"
+				},
+				{
+					"id": 188239,
+					"name": "Robin Hranac",
+					"position": "Defence"
+				},
+				{
+					"id": 254530,
+					"name": "Štěpán Chaloupek",
+					"position": "Defence"
+				},
+				{
+					"id": 6556,
+					"name": "Vladimír Darida",
+					"position": "Midfield"
+				},
+				{
+					"id": 15742,
+					"name": "Tomáš Souček",
+					"position": "Midfield"
+				},
+				{
+					"id": 62821,
+					"name": "David Douděra",
+					"position": "Midfield"
+				},
+				{
+					"id": 67970,
+					"name": "Michal Sadílek",
+					"position": "Midfield"
+				},
+				{
+					"id": 120279,
+					"name": "Lukáš Provod",
+					"position": "Midfield"
+				},
+				{
+					"id": 121312,
+					"name": "Pavel Šulc",
+					"position": "Midfield"
+				},
+				{
+					"id": 145322,
+					"name": "Lukáš Červ",
+					"position": "Midfield"
+				},
+				{
+					"id": 154082,
+					"name": "Denis Višinský",
+					"position": "Midfield"
+				},
+				{
+					"id": 269966,
+					"name": "Alexandr Sojka",
+					"position": "Midfield"
+				},
+				{
+					"id": 293648,
+					"name": "Hugo Sochůrek",
+					"position": "Midfield"
+				},
+				{
+					"id": 1826,
+					"name": "Patrik Schick",
+					"position": "Offence"
+				},
+				{
+					"id": 16396,
+					"name": "Tomáš Chorý",
+					"position": "Offence"
+				},
+				{
+					"id": 62726,
+					"name": "Jan Kuchta",
+					"position": "Offence"
+				},
+				{
+					"id": 99042,
+					"name": "Adam Hložek",
+					"position": "Offence"
+				},
+				{
+					"id": 99752,
+					"name": "Mojmír Chytil",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 799,
+			"name": "Croatia",
+			"tla": "CRO",
+			"squad": [
+				{
+					"id": 3548,
+					"name": "Dominik Livaković",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 16577,
+					"name": "Ivor Pandur",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 67883,
+					"name": "Dominik Kotarski",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 10206,
+					"name": "Duje Ćaleta-Car",
+					"position": "Defence"
+				},
+				{
+					"id": 15110,
+					"name": "Marin Pongračić",
+					"position": "Defence"
+				},
+				{
+					"id": 74268,
+					"name": "Martin Erlic",
+					"position": "Defence"
+				},
+				{
+					"id": 122188,
+					"name": "Josip Stanišić",
+					"position": "Defence"
+				},
+				{
+					"id": 122266,
+					"name": "Joško Gvardiol",
+					"position": "Defence"
+				},
+				{
+					"id": 134835,
+					"name": "Josip Šutalo",
+					"position": "Defence"
+				},
+				{
+					"id": 216835,
+					"name": "Luka Vušković",
+					"position": "Defence"
+				},
+				{
+					"id": 43,
+					"name": "Luka Modrić",
+					"position": "Midfield"
+				},
+				{
+					"id": 65,
+					"name": "Mateo Kovačić",
+					"position": "Midfield"
+				},
+				{
+					"id": 3553,
+					"name": "Mario Pašalić",
+					"position": "Midfield"
+				},
+				{
+					"id": 7843,
+					"name": "Nikola Vlašić",
+					"position": "Midfield"
+				},
+				{
+					"id": 23135,
+					"name": "Nikola Moro",
+					"position": "Midfield"
+				},
+				{
+					"id": 23222,
+					"name": "Kristijan Jakić",
+					"position": "Midfield"
+				},
+				{
+					"id": 82516,
+					"name": "Luka Sučić",
+					"position": "Midfield"
+				},
+				{
+					"id": 154013,
+					"name": "Petar Sucic",
+					"position": "Midfield"
+				},
+				{
+					"id": 156912,
+					"name": "Martin Baturina",
+					"position": "Midfield"
+				},
+				{
+					"id": 216138,
+					"name": "Toni Fruk",
+					"position": "Midfield"
+				},
+				{
+					"id": 318,
+					"name": "Andrej Kramarić",
+					"position": "Offence"
+				},
+				{
+					"id": 2004,
+					"name": "Ivan Perišić",
+					"position": "Offence"
+				},
+				{
+					"id": 2237,
+					"name": "Ante Budimir",
+					"position": "Offence"
+				},
+				{
+					"id": 56589,
+					"name": "Petar Musa",
+					"position": "Offence"
+				},
+				{
+					"id": 150052,
+					"name": "Marco Pašalić",
+					"position": "Offence"
+				},
+				{
+					"id": 156629,
+					"name": "Igor Matanovic",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 801,
+			"name": "Saudi Arabia",
+			"tla": "KSA",
+			"squad": [
+				{
+					"id": 3561,
+					"name": "Mohammed Al Owais",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 233580,
+					"name": "Nawaf Al Aqidi",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 249787,
+					"name": "Ahmed Al Kassar",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 103094,
+					"name": "Abdulelah Al Amri",
+					"position": "Defence"
+				},
+				{
+					"id": 129098,
+					"name": "Saud Abdulhamid",
+					"position": "Defence"
+				},
+				{
+					"id": 132018,
+					"name": "Ali Lajami",
+					"position": "Defence"
+				},
+				{
+					"id": 244368,
+					"name": "Hassan Al Tambakti",
+					"position": "Defence"
+				},
+				{
+					"id": 244552,
+					"name": "Hassan Kadesh",
+					"position": "Defence"
+				},
+				{
+					"id": 253246,
+					"name": "Moteb Al Harbi",
+					"position": "Defence"
+				},
+				{
+					"id": 295325,
+					"name": "Ali Majrashi",
+					"position": "Defence"
+				},
+				{
+					"id": 295850,
+					"name": "Jehad Thakri",
+					"position": "Defence"
+				},
+				{
+					"id": 295852,
+					"name": "Nawaf Boushal",
+					"position": "Defence"
+				},
+				{
+					"id": 3574,
+					"name": "Salem Al Dawsari",
+					"position": "Midfield"
+				},
+				{
+					"id": 3583,
+					"name": "Abdullah Al Khaibari",
+					"position": "Midfield"
+				},
+				{
+					"id": 166119,
+					"name": "Nasser Al Dawsari",
+					"position": "Midfield"
+				},
+				{
+					"id": 189703,
+					"name": "Ayman Yahya",
+					"position": "Midfield"
+				},
+				{
+					"id": 248781,
+					"name": "Musab Al Juwayr",
+					"position": "Midfield"
+				},
+				{
+					"id": 248783,
+					"name": "Mohammed Kanno",
+					"position": "Midfield"
+				},
+				{
+					"id": 295324,
+					"name": "Ziyad Al-Johani",
+					"position": "Midfield"
+				},
+				{
+					"id": 295849,
+					"name": "Mohammed Abu Al Shamat",
+					"position": "Midfield"
+				},
+				{
+					"id": 295851,
+					"name": "Alaa Al Hejji",
+					"position": "Midfield"
+				},
+				{
+					"id": 114373,
+					"name": "Sultan Mandash",
+					"position": "Offence"
+				},
+				{
+					"id": 166114,
+					"name": "Saleh Al Shehri",
+					"position": "Offence"
+				},
+				{
+					"id": 189799,
+					"name": "Abdullah Al-Hamdan",
+					"position": "Offence"
+				},
+				{
+					"id": 244411,
+					"name": "Khalid Al Ghannam",
+					"position": "Offence"
+				},
+				{
+					"id": 249786,
+					"name": "Firas Al Brikan",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 802,
+			"name": "Tunisia",
+			"tla": "TUN",
+			"squad": [
+				{
+					"id": 99393,
+					"name": "Aymen Dahmen",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 295200,
+					"name": "Sabri Ben Hessen",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 295202,
+					"name": "Abdelmouhib Chamakh",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3595,
+					"name": "Dylan Bronn",
+					"position": "Defence"
+				},
+				{
+					"id": 99394,
+					"name": "Ali El Abdi",
+					"position": "Defence"
+				},
+				{
+					"id": 99799,
+					"name": "Yan Valery",
+					"position": "Defence"
+				},
+				{
+					"id": 130471,
+					"name": "Mortadha Ben Ouanes",
+					"position": "Defence"
+				},
+				{
+					"id": 144669,
+					"name": "Omar Rekik",
+					"position": "Defence"
+				},
+				{
+					"id": 173578,
+					"name": "Yassine Chikhaoui",
+					"position": "Defence"
+				},
+				{
+					"id": 177695,
+					"name": "Montassar Talbi",
+					"position": "Defence"
+				},
+				{
+					"id": 189007,
+					"name": "Moutaz Neffati",
+					"position": "Defence"
+				},
+				{
+					"id": 273918,
+					"name": "Mohamed Amine Ben Hamida",
+					"position": "Defence"
+				},
+				{
+					"id": 285769,
+					"name": "Adem Arous",
+					"position": "Defence"
+				},
+				{
+					"id": 3608,
+					"name": "Ellyes Skhiri",
+					"position": "Midfield"
+				},
+				{
+					"id": 6657,
+					"name": "Rani Khedira",
+					"position": "Midfield"
+				},
+				{
+					"id": 141826,
+					"name": "Anis Ben Slimane",
+					"position": "Midfield"
+				},
+				{
+					"id": 161414,
+					"name": "Ismaël Gharbi",
+					"position": "Midfield"
+				},
+				{
+					"id": 169325,
+					"name": "Hannibal Mejbri",
+					"position": "Midfield"
+				},
+				{
+					"id": 171368,
+					"name": "Elias Achouri",
+					"position": "Midfield"
+				},
+				{
+					"id": 172854,
+					"name": "Hadj Mahmoud",
+					"position": "Midfield"
+				},
+				{
+					"id": 95125,
+					"name": "Sebastian Tounekti",
+					"position": "Offence"
+				},
+				{
+					"id": 97476,
+					"name": "Firas Chaouat",
+					"position": "Offence"
+				},
+				{
+					"id": 171927,
+					"name": "Elias Saad",
+					"position": "Offence"
+				},
+				{
+					"id": 277192,
+					"name": "Hazem Mastouri",
+					"position": "Offence"
+				},
+				{
+					"id": 279116,
+					"name": "Rayan Elloumi",
+					"position": "Offence"
+				},
+				{
+					"id": 295662,
+					"name": "Khalil Ayari",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 803,
+			"name": "Turkey",
+			"tla": "TUR",
+			"squad": [
+				{
+					"id": 16641,
+					"name": "Mert Günok",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 29518,
+					"name": "Altay Bayındır",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 30283,
+					"name": "Uğurcan Çakır",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 9475,
+					"name": "Çağlar Söyüncü",
+					"position": "Defence"
+				},
+				{
+					"id": 9512,
+					"name": "Kaan Ayhan",
+					"position": "Defence"
+				},
+				{
+					"id": 9869,
+					"name": "Ferdi Kadıoğlu",
+					"position": "Defence"
+				},
+				{
+					"id": 10647,
+					"name": "Mert Müldür",
+					"position": "Defence"
+				},
+				{
+					"id": 29622,
+					"name": "Zeki Çelik",
+					"position": "Defence"
+				},
+				{
+					"id": 29804,
+					"name": "Abdülkerim Bardakcı",
+					"position": "Defence"
+				},
+				{
+					"id": 30548,
+					"name": "Ozan Kabak",
+					"position": "Defence"
+				},
+				{
+					"id": 37118,
+					"name": "Merih Demiral",
+					"position": "Defence"
+				},
+				{
+					"id": 127226,
+					"name": "Samet Akaydın",
+					"position": "Defence"
+				},
+				{
+					"id": 145831,
+					"name": "Evren Eren Elmalı",
+					"position": "Defence"
+				},
+				{
+					"id": 201,
+					"name": "Salih Özcan",
+					"position": "Midfield"
+				},
+				{
+					"id": 1754,
+					"name": "Hakan Çalhanoğlu",
+					"position": "Midfield"
+				},
+				{
+					"id": 7474,
+					"name": "Orkun Kökçü",
+					"position": "Midfield"
+				},
+				{
+					"id": 148295,
+					"name": "İsmail Yüksek",
+					"position": "Midfield"
+				},
+				{
+					"id": 169162,
+					"name": "Arda Guler",
+					"position": "Midfield"
+				},
+				{
+					"id": 171972,
+					"name": "Oguz Aydin",
+					"position": "Midfield"
+				},
+				{
+					"id": 172081,
+					"name": "Baris Yilmaz",
+					"position": "Midfield"
+				},
+				{
+					"id": 180964,
+					"name": "İrfan Kahveci",
+					"position": "Midfield"
+				},
+				{
+					"id": 79906,
+					"name": "Yunus Akgün",
+					"position": "Offence"
+				},
+				{
+					"id": 149737,
+					"name": "Muhammed Kerem Aktürkoğlu",
+					"position": "Offence"
+				},
+				{
+					"id": 188466,
+					"name": "Deniz Gul",
+					"position": "Offence"
+				},
+				{
+					"id": 191712,
+					"name": "Kenan Yıldız",
+					"position": "Offence"
+				},
+				{
+					"id": 193605,
+					"name": "Can Uzun",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 804,
+			"name": "Senegal",
+			"tla": "SEN",
+			"squad": [
+				{
+					"id": 805,
+					"name": "Edouard Mendy",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 8608,
+					"name": "Yehvann Diouf",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 20931,
+					"name": "Mory Diaw",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 194,
+					"name": "Ismail Jakobs",
+					"position": "Defence"
+				},
+				{
+					"id": 2086,
+					"name": "Kalidou Koulibaly",
+					"position": "Defence"
+				},
+				{
+					"id": 8723,
+					"name": "Moussa Niakhaté",
+					"position": "Defence"
+				},
+				{
+					"id": 38154,
+					"name": "Abdoulaye Seck",
+					"position": "Defence"
+				},
+				{
+					"id": 168667,
+					"name": "Antoine Mendy",
+					"position": "Defence"
+				},
+				{
+					"id": 190866,
+					"name": "Mamadou Sarr",
+					"position": "Defence"
+				},
+				{
+					"id": 205441,
+					"name": "El Hadji Diouf",
+					"position": "Defence"
+				},
+				{
+					"id": 633,
+					"name": "Pape Gueye",
+					"position": "Midfield"
+				},
+				{
+					"id": 3627,
+					"name": "Idrissa Gana Guèye",
+					"position": "Midfield"
+				},
+				{
+					"id": 3638,
+					"name": "Ismaïla Sarr",
+					"position": "Midfield"
+				},
+				{
+					"id": 8887,
+					"name": "Krépin Diatta",
+					"position": "Midfield"
+				},
+				{
+					"id": 37649,
+					"name": "Pathé Ciss",
+					"position": "Midfield"
+				},
+				{
+					"id": 94091,
+					"name": "Iliman Ndiaye",
+					"position": "Midfield"
+				},
+				{
+					"id": 170391,
+					"name": "Pape Sarr",
+					"position": "Midfield"
+				},
+				{
+					"id": 171876,
+					"name": "Habib Diarra",
+					"position": "Midfield"
+				},
+				{
+					"id": 204269,
+					"name": "Lamine Camara",
+					"position": "Midfield"
+				},
+				{
+					"id": 290450,
+					"name": "Bara Ndiaye",
+					"position": "Midfield"
+				},
+				{
+					"id": 3626,
+					"name": "Sadio Mané",
+					"position": "Offence"
+				},
+				{
+					"id": 9148,
+					"name": "Cherif Ndiaye",
+					"position": "Offence"
+				},
+				{
+					"id": 152515,
+					"name": "Nicolas Jackson",
+					"position": "Offence"
+				},
+				{
+					"id": 166640,
+					"name": "Ahmadou Bamba Dieng",
+					"position": "Offence"
+				},
+				{
+					"id": 218474,
+					"name": "Assane Diao",
+					"position": "Offence"
+				},
+				{
+					"id": 265040,
+					"name": "Ibrahim M'Baye",
+					"position": "Offence"
+				},
+				{
+					"id": 252052,
+					"name": "Pape Thiaw",
+					"position": "Coach"
+				}
+			]
+		},
+		{
+			"id": 805,
+			"name": "Belgium",
+			"tla": "BEL",
+			"squad": [
+				{
+					"id": 3641,
+					"name": "Thibaut Courtois",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 129946,
+					"name": "Senne Lammens",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 191068,
+					"name": "Mike Penders",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 1836,
+					"name": "Timothy Castagne",
+					"position": "Defence"
+				},
+				{
+					"id": 3650,
+					"name": "Thomas Meunier",
+					"position": "Defence"
+				},
+				{
+					"id": 8873,
+					"name": "Brandon Mechele",
+					"position": "Defence"
+				},
+				{
+					"id": 142075,
+					"name": "Maxim De Cuyper",
+					"position": "Defence"
+				},
+				{
+					"id": 145893,
+					"name": "Arthur Theate",
+					"position": "Defence"
+				},
+				{
+					"id": 153556,
+					"name": "Koni De Winter",
+					"position": "Defence"
+				},
+				{
+					"id": 160926,
+					"name": "Zeno Debast",
+					"position": "Defence"
+				},
+				{
+					"id": 192677,
+					"name": "Nathan Ngoy",
+					"position": "Defence"
+				},
+				{
+					"id": 213534,
+					"name": "Joaquin Seys",
+					"position": "Defence"
+				},
+				{
+					"id": 3654,
+					"name": "Kevin De Bruyne",
+					"position": "Midfield"
+				},
+				{
+					"id": 3656,
+					"name": "Axel Witsel",
+					"position": "Midfield"
+				},
+				{
+					"id": 3658,
+					"name": "Youri Tielemans",
+					"position": "Midfield"
+				},
+				{
+					"id": 8128,
+					"name": "Dodi Lukebakio",
+					"position": "Midfield"
+				},
+				{
+					"id": 8858,
+					"name": "Alexis Saelemaekers",
+					"position": "Midfield"
+				},
+				{
+					"id": 8888,
+					"name": "Hans Vanaken",
+					"position": "Midfield"
+				},
+				{
+					"id": 8915,
+					"name": "Nicolas Raskin",
+					"position": "Midfield"
+				},
+				{
+					"id": 99775,
+					"name": "Jeremy Doku",
+					"position": "Midfield"
+				},
+				{
+					"id": 114024,
+					"name": "Amadou Onana",
+					"position": "Midfield"
+				},
+				{
+					"id": 182192,
+					"name": "Diego Moreira",
+					"position": "Midfield"
+				},
+				{
+					"id": 3662,
+					"name": "Romelu Lukaku",
+					"position": "Offence"
+				},
+				{
+					"id": 8984,
+					"name": "Leandro Trossard",
+					"position": "Offence"
+				},
+				{
+					"id": 129947,
+					"name": "Charles De Ketelaere",
+					"position": "Offence"
+				},
+				{
+					"id": 213511,
+					"name": "Matias Fernandez-Pardo",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 815,
+			"name": "Morocco",
+			"tla": "MAR",
+			"squad": [
+				{
+					"id": 3693,
+					"name": "Munir Mohamedi",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3694,
+					"name": "Yassine Bounou",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3695,
+					"name": "Ahmed Reda Tagnaouti",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 53,
+					"name": "Achraf Hakimi",
+					"position": "Defence"
+				},
+				{
+					"id": 7553,
+					"name": "Noussair Mazraoui",
+					"position": "Defence"
+				},
+				{
+					"id": 8296,
+					"name": "Issa Diop",
+					"position": "Defence"
+				},
+				{
+					"id": 81191,
+					"name": "Nayef Aguerd",
+					"position": "Defence"
+				},
+				{
+					"id": 137693,
+					"name": "Anass Salah-Eddine",
+					"position": "Defence"
+				},
+				{
+					"id": 150948,
+					"name": "Chadi Riad",
+					"position": "Defence"
+				},
+				{
+					"id": 172822,
+					"name": "Redouane Halhal",
+					"position": "Defence"
+				},
+				{
+					"id": 213459,
+					"name": "Zakaria El Ouahdi",
+					"position": "Defence"
+				},
+				{
+					"id": 277391,
+					"name": "Youssef Belammari",
+					"position": "Defence"
+				},
+				{
+					"id": 3705,
+					"name": "Sofyan Amrabat",
+					"position": "Midfield"
+				},
+				{
+					"id": 7887,
+					"name": "Brahim Diaz",
+					"position": "Midfield"
+				},
+				{
+					"id": 122511,
+					"name": "Azzedine Ounahi",
+					"position": "Midfield"
+				},
+				{
+					"id": 130173,
+					"name": "Ismael Saibari",
+					"position": "Midfield"
+				},
+				{
+					"id": 170647,
+					"name": "Neil El Aynaoui",
+					"position": "Midfield"
+				},
+				{
+					"id": 189873,
+					"name": "Bilal El Khannouss",
+					"position": "Midfield"
+				},
+				{
+					"id": 192313,
+					"name": "Chemsdine Talbi",
+					"position": "Midfield"
+				},
+				{
+					"id": 221819,
+					"name": "Ayyoub Bouaddi",
+					"position": "Midfield"
+				},
+				{
+					"id": 244929,
+					"name": "Samir El Mourabet",
+					"position": "Midfield"
+				},
+				{
+					"id": 130502,
+					"name": "Soufiane Rahimi",
+					"position": "Offence"
+				},
+				{
+					"id": 172417,
+					"name": "Ayoub El Kaabi",
+					"position": "Offence"
+				},
+				{
+					"id": 175941,
+					"name": "Abdessamad Ezzalzouli",
+					"position": "Offence"
+				},
+				{
+					"id": 245336,
+					"name": "Gessime Yassine",
+					"position": "Offence"
+				},
+				{
+					"id": 261438,
+					"name": "Ayoube Amaimouni-Echghouyab",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 816,
+			"name": "Austria",
+			"tla": "AUT",
+			"squad": [
+				{
+					"id": 10702,
+					"name": "Alexander Schlager",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 10837,
+					"name": "Patrick Pentz",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 217244,
+					"name": "Florian Wiegele",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 349,
+					"name": "David Alaba",
+					"position": "Defence"
+				},
+				{
+					"id": 395,
+					"name": "Stefan Posch",
+					"position": "Defence"
+				},
+				{
+					"id": 6576,
+					"name": "Philipp Mwene",
+					"position": "Defence"
+				},
+				{
+					"id": 6655,
+					"name": "Kevin Danso",
+					"position": "Defence"
+				},
+				{
+					"id": 9447,
+					"name": "Marco Friedl",
+					"position": "Defence"
+				},
+				{
+					"id": 9477,
+					"name": "Philipp Lienhart",
+					"position": "Defence"
+				},
+				{
+					"id": 61968,
+					"name": "Michael Svoboda",
+					"position": "Defence"
+				},
+				{
+					"id": 113457,
+					"name": "Alexander Prass",
+					"position": "Defence"
+				},
+				{
+					"id": 123212,
+					"name": "David Affengruber",
+					"position": "Defence"
+				},
+				{
+					"id": 404,
+					"name": "Florian Grillitsch",
+					"position": "Midfield"
+				},
+				{
+					"id": 6501,
+					"name": "Alessandro Schöpf",
+					"position": "Midfield"
+				},
+				{
+					"id": 9549,
+					"name": "Konrad Laimer",
+					"position": "Midfield"
+				},
+				{
+					"id": 9551,
+					"name": "Marcel Sabitzer",
+					"position": "Midfield"
+				},
+				{
+					"id": 16344,
+					"name": "Xaver Schlager",
+					"position": "Midfield"
+				},
+				{
+					"id": 16346,
+					"name": "Romano Schmid",
+					"position": "Midfield"
+				},
+				{
+					"id": 56829,
+					"name": "Christoph Baumgartner",
+					"position": "Midfield"
+				},
+				{
+					"id": 113038,
+					"name": "Nicolas  Seiwald",
+					"position": "Midfield"
+				},
+				{
+					"id": 124324,
+					"name": "Patrick Wimmer",
+					"position": "Midfield"
+				},
+				{
+					"id": 167570,
+					"name": "Carney Chukwuemeka",
+					"position": "Midfield"
+				},
+				{
+					"id": 176932,
+					"name": "Paul Wanner",
+					"position": "Midfield"
+				},
+				{
+					"id": 6661,
+					"name": "Michael Gregoritsch",
+					"position": "Offence"
+				},
+				{
+					"id": 8223,
+					"name": "Marko Arnautovic",
+					"position": "Offence"
+				},
+				{
+					"id": 10761,
+					"name": "Saša Kalajdžić",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 818,
+			"name": "Colombia",
+			"tla": "COL",
+			"squad": [
+				{
+					"id": 3721,
+					"name": "Camilo Vargas",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3722,
+					"name": "David Ospina",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 22742,
+					"name": "Álvaro Montero",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3723,
+					"name": "Santiago Arias",
+					"position": "Defence"
+				},
+				{
+					"id": 3724,
+					"name": "Johan Mojica",
+					"position": "Defence"
+				},
+				{
+					"id": 3728,
+					"name": "Yerry Mina",
+					"position": "Defence"
+				},
+				{
+					"id": 3733,
+					"name": "Davinson Sánchez",
+					"position": "Defence"
+				},
+				{
+					"id": 8913,
+					"name": "Deiver Machado",
+					"position": "Defence"
+				},
+				{
+					"id": 22010,
+					"name": "Daniel Muñoz",
+					"position": "Defence"
+				},
+				{
+					"id": 22113,
+					"name": "Jhon Lucumí",
+					"position": "Defence"
+				},
+				{
+					"id": 82825,
+					"name": "Willer Ditta",
+					"position": "Defence"
+				},
+				{
+					"id": 365,
+					"name": "James Rodríguez",
+					"position": "Midfield"
+				},
+				{
+					"id": 3737,
+					"name": "Jefferson Lerma",
+					"position": "Midfield"
+				},
+				{
+					"id": 22306,
+					"name": "Jhon Arias",
+					"position": "Midfield"
+				},
+				{
+					"id": 29012,
+					"name": "Jorge Carrascal",
+					"position": "Midfield"
+				},
+				{
+					"id": 156738,
+					"name": "Kevin Castaño",
+					"position": "Midfield"
+				},
+				{
+					"id": 168403,
+					"name": "Juan Quintero",
+					"position": "Midfield"
+				},
+				{
+					"id": 170245,
+					"name": "Jaminton Campaz",
+					"position": "Midfield"
+				},
+				{
+					"id": 170657,
+					"name": "Richard Rios",
+					"position": "Midfield"
+				},
+				{
+					"id": 178353,
+					"name": "Juan Portilla",
+					"position": "Midfield"
+				},
+				{
+					"id": 191421,
+					"name": "Gustavo Puerta",
+					"position": "Midfield"
+				},
+				{
+					"id": 212,
+					"name": "Jhon Córdoba",
+					"position": "Offence"
+				},
+				{
+					"id": 22396,
+					"name": "Luis Díaz",
+					"position": "Offence"
+				},
+				{
+					"id": 32386,
+					"name": "Luis Suárez",
+					"position": "Offence"
+				},
+				{
+					"id": 32415,
+					"name": "Cucho Hernández",
+					"position": "Offence"
+				},
+				{
+					"id": 178432,
+					"name": "Carlos Gómez",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 825,
+			"name": "Egypt",
+			"tla": "EGY",
+			"squad": [
+				{
+					"id": 3743,
+					"name": "Mohamed El Shenawy",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 132128,
+					"name": "Mohamed Alaa",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 251169,
+					"name": "Oufa Shobeir",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 295344,
+					"name": "El Mahdi Soliman",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 780,
+					"name": "Karim Hafez",
+					"position": "Defence"
+				},
+				{
+					"id": 83057,
+					"name": "Mohamed Hany",
+					"position": "Defence"
+				},
+				{
+					"id": 245519,
+					"name": "Yasser Ibrahim",
+					"position": "Defence"
+				},
+				{
+					"id": 245553,
+					"name": "Ahmed El Fotouh",
+					"position": "Defence"
+				},
+				{
+					"id": 245563,
+					"name": "Mohamed Abdelmonem",
+					"position": "Defence"
+				},
+				{
+					"id": 245625,
+					"name": "Rami Rabia",
+					"position": "Defence"
+				},
+				{
+					"id": 261033,
+					"name": "Hossam Abdelmaguid",
+					"position": "Defence"
+				},
+				{
+					"id": 295343,
+					"name": "Tarek Alaa",
+					"position": "Defence"
+				},
+				{
+					"id": 45207,
+					"name": "Zizo",
+					"position": "Midfield"
+				},
+				{
+					"id": 114669,
+					"name": "Nabil Dunga",
+					"position": "Midfield"
+				},
+				{
+					"id": 132389,
+					"name": "Hamdy Fathy",
+					"position": "Midfield"
+				},
+				{
+					"id": 180952,
+					"name": "Trezeguet",
+					"position": "Midfield"
+				},
+				{
+					"id": 191972,
+					"name": "Emam Ashour",
+					"position": "Midfield"
+				},
+				{
+					"id": 245550,
+					"name": "Mohanad Lashin",
+					"position": "Midfield"
+				},
+				{
+					"id": 245582,
+					"name": "Marwan Attia",
+					"position": "Midfield"
+				},
+				{
+					"id": 261012,
+					"name": "Mahmoud Saber",
+					"position": "Midfield"
+				},
+				{
+					"id": 295848,
+					"name": "Mostafa Ziko",
+					"position": "Midfield"
+				},
+				{
+					"id": 3754,
+					"name": "Mohamed Salah",
+					"position": "Offence"
+				},
+				{
+					"id": 66896,
+					"name": "Omar Marmoush",
+					"position": "Offence"
+				},
+				{
+					"id": 98222,
+					"name": "Haissem Hassan",
+					"position": "Offence"
+				},
+				{
+					"id": 253635,
+					"name": "Ibrahim Adel",
+					"position": "Offence"
+				},
+				{
+					"id": 274542,
+					"name": "Hamza Abdelkarim",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 828,
+			"name": "Canada",
+			"tla": "CAN",
+			"squad": [
+				{
+					"id": 21226,
+					"name": "Maxime Crépeau",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 113351,
+					"name": "Dayne St. Clair",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 189264,
+					"name": "Owen Goodman",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 21288,
+					"name": "Alphonso Davies",
+					"position": "Defence"
+				},
+				{
+					"id": 77691,
+					"name": "Richie Laryea",
+					"position": "Defence"
+				},
+				{
+					"id": 81286,
+					"name": "Alfie Jones",
+					"position": "Defence"
+				},
+				{
+					"id": 112209,
+					"name": "Joel Waterman",
+					"position": "Defence"
+				},
+				{
+					"id": 113228,
+					"name": "Derek Cornelius",
+					"position": "Defence"
+				},
+				{
+					"id": 118604,
+					"name": "Alistair Johnston",
+					"position": "Defence"
+				},
+				{
+					"id": 192153,
+					"name": "Moise Bombito",
+					"position": "Defence"
+				},
+				{
+					"id": 217596,
+					"name": "Luc De Fougerolles",
+					"position": "Defence"
+				},
+				{
+					"id": 21199,
+					"name": "Jonathan Osorio",
+					"position": "Midfield"
+				},
+				{
+					"id": 37479,
+					"name": "Stephen Eustáquio",
+					"position": "Midfield"
+				},
+				{
+					"id": 72777,
+					"name": "Mathieu Choinière",
+					"position": "Midfield"
+				},
+				{
+					"id": 113175,
+					"name": "Tajon Buchanan",
+					"position": "Midfield"
+				},
+				{
+					"id": 140546,
+					"name": "Marcelo Flores",
+					"position": "Midfield"
+				},
+				{
+					"id": 171216,
+					"name": "Nathan-Dylan Saliba",
+					"position": "Midfield"
+				},
+				{
+					"id": 172183,
+					"name": "Ismael Kone",
+					"position": "Midfield"
+				},
+				{
+					"id": 181976,
+					"name": "Ali Ahmed",
+					"position": "Midfield"
+				},
+				{
+					"id": 216809,
+					"name": "Niko Sigur",
+					"position": "Midfield"
+				},
+				{
+					"id": 8924,
+					"name": "Jonathan David",
+					"position": "Offence"
+				},
+				{
+					"id": 15958,
+					"name": "Cyle Larin",
+					"position": "Offence"
+				},
+				{
+					"id": 110807,
+					"name": "Liam Millar",
+					"position": "Offence"
+				},
+				{
+					"id": 111842,
+					"name": "Jacob Shaffelburg",
+					"position": "Offence"
+				},
+				{
+					"id": 177826,
+					"name": "Tani Oluwaseyi",
+					"position": "Offence"
+				},
+				{
+					"id": 260992,
+					"name": "Promise Akinpelu",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 836,
+			"name": "Haiti",
+			"tla": "HAI",
+			"squad": [
+				{
+					"id": 154781,
+					"name": "Alexandre Pierre",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 170624,
+					"name": "Johny Placide",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 295199,
+					"name": "Josué Duverger",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 532,
+					"name": "Carlens Arcus",
+					"position": "Defence"
+				},
+				{
+					"id": 776,
+					"name": "Jean-Kevin Duverne",
+					"position": "Defence"
+				},
+				{
+					"id": 8845,
+					"name": "Hannes Delcroix",
+					"position": "Defence"
+				},
+				{
+					"id": 158228,
+					"name": "Martin Expérience",
+					"position": "Defence"
+				},
+				{
+					"id": 166220,
+					"name": "Ricardo Adé",
+					"position": "Defence"
+				},
+				{
+					"id": 253605,
+					"name": "Duke LaCroix",
+					"position": "Defence"
+				},
+				{
+					"id": 256398,
+					"name": "Keeto Thermoncy",
+					"position": "Defence"
+				},
+				{
+					"id": 291152,
+					"name": "Wilguens Paugain",
+					"position": "Defence"
+				},
+				{
+					"id": 433,
+					"name": "Leverton Pierre",
+					"position": "Midfield"
+				},
+				{
+					"id": 788,
+					"name": "Jean-Ricner Bellegarde",
+					"position": "Midfield"
+				},
+				{
+					"id": 77609,
+					"name": "Derrick Etienne",
+					"position": "Midfield"
+				},
+				{
+					"id": 177049,
+					"name": "Danley Jean Jacques",
+					"position": "Midfield"
+				},
+				{
+					"id": 182788,
+					"name": "Dominique Simon",
+					"position": "Midfield"
+				},
+				{
+					"id": 250006,
+					"name": "Carl Sainté",
+					"position": "Midfield"
+				},
+				{
+					"id": 295197,
+					"name": "Woodensky Pierre",
+					"position": "Midfield"
+				},
+				{
+					"id": 5380,
+					"name": "Duckens Nazon",
+					"position": "Offence"
+				},
+				{
+					"id": 74870,
+					"name": "Frantzdy Pierrot",
+					"position": "Offence"
+				},
+				{
+					"id": 82421,
+					"name": "Yassin Fortune",
+					"position": "Offence"
+				},
+				{
+					"id": 83599,
+					"name": "Wilson Isidor",
+					"position": "Offence"
+				},
+				{
+					"id": 106726,
+					"name": "Lenny Joseph",
+					"position": "Offence"
+				},
+				{
+					"id": 125787,
+					"name": "Louicius Don Deedson",
+					"position": "Offence"
+				},
+				{
+					"id": 152737,
+					"name": "Josué Casimir",
+					"position": "Offence"
+				},
+				{
+					"id": 152801,
+					"name": "Ruben Providence",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 840,
+			"name": "Iran",
+			"tla": "IRN",
+			"squad": [
+				{
+					"id": 3797,
+					"name": "Hossein Hosseini",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 103099,
+					"name": "Payam Niazmand",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 171319,
+					"name": "Alireza Beiranvand",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3800,
+					"name": "Ehsan Hajsafi",
+					"position": "Defence"
+				},
+				{
+					"id": 3804,
+					"name": "Ramin Rezaeian",
+					"position": "Defence"
+				},
+				{
+					"id": 3811,
+					"name": "Milad Mohammadi",
+					"position": "Defence"
+				},
+				{
+					"id": 231884,
+					"name": "Hossein Kanaanizadegan",
+					"position": "Defence"
+				},
+				{
+					"id": 231889,
+					"name": "Shojae Khalilzadeh",
+					"position": "Defence"
+				},
+				{
+					"id": 231900,
+					"name": "Rouzbeh Cheshmi",
+					"position": "Defence"
+				},
+				{
+					"id": 249673,
+					"name": "Saleh Hardani",
+					"position": "Defence"
+				},
+				{
+					"id": 295339,
+					"name": "Ali Nemati",
+					"position": "Defence"
+				},
+				{
+					"id": 295340,
+					"name": "Danial Eiri",
+					"position": "Defence"
+				},
+				{
+					"id": 3821,
+					"name": "Saeid Ezatolahi",
+					"position": "Midfield"
+				},
+				{
+					"id": 189724,
+					"name": "Mehdi Torabi",
+					"position": "Midfield"
+				},
+				{
+					"id": 189790,
+					"name": "Mohammad Ghorbani",
+					"position": "Midfield"
+				},
+				{
+					"id": 244158,
+					"name": "Ariya Yousefi",
+					"position": "Midfield"
+				},
+				{
+					"id": 249672,
+					"name": "Medhi Ghayedi",
+					"position": "Midfield"
+				},
+				{
+					"id": 295334,
+					"name": "Amir Razzaghinia",
+					"position": "Midfield"
+				},
+				{
+					"id": 3819,
+					"name": "Alireza Jahanbakhsh",
+					"position": "Offence"
+				},
+				{
+					"id": 3820,
+					"name": "Mehdi Taremi",
+					"position": "Offence"
+				},
+				{
+					"id": 33634,
+					"name": "Dennis Eckert",
+					"position": "Offence"
+				},
+				{
+					"id": 119530,
+					"name": "Ali Alipour",
+					"position": "Offence"
+				},
+				{
+					"id": 152180,
+					"name": "Shahriar Moghanlou",
+					"position": "Offence"
+				},
+				{
+					"id": 172641,
+					"name": "Mohammad Mohebi",
+					"position": "Offence"
+				},
+				{
+					"id": 179746,
+					"name": "Saman Ghoddos",
+					"position": "Offence"
+				},
+				{
+					"id": 254746,
+					"name": "Amir Hosseinzadeh",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 1060,
+			"name": "Bosnia-Herzegovina",
+			"tla": "BIH",
+			"squad": [
+				{
+					"id": 17645,
+					"name": "Martin Zlomislić",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 65105,
+					"name": "Nikola Vasilj",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 276572,
+					"name": "Mladen Jurkas",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 7786,
+					"name": "Sead Kolašinac",
+					"position": "Defence"
+				},
+				{
+					"id": 15357,
+					"name": "Dennis Hadžikadunić",
+					"position": "Defence"
+				},
+				{
+					"id": 17869,
+					"name": "Nihad Mujakić",
+					"position": "Defence"
+				},
+				{
+					"id": 23182,
+					"name": "Nikola Katić",
+					"position": "Defence"
+				},
+				{
+					"id": 65758,
+					"name": "Stjepan Radeljić",
+					"position": "Defence"
+				},
+				{
+					"id": 81816,
+					"name": "Amar Dedić",
+					"position": "Defence"
+				},
+				{
+					"id": 189153,
+					"name": "Tarik Muharemović",
+					"position": "Defence"
+				},
+				{
+					"id": 216398,
+					"name": "Nidal Čelik",
+					"position": "Defence"
+				},
+				{
+					"id": 9400,
+					"name": "Dženis Burnić",
+					"position": "Midfield"
+				},
+				{
+					"id": 23206,
+					"name": "Ivan Šunjić",
+					"position": "Midfield"
+				},
+				{
+					"id": 30102,
+					"name": "Amir Hadžiahmetović",
+					"position": "Midfield"
+				},
+				{
+					"id": 119385,
+					"name": "Armin Gigovic",
+					"position": "Midfield"
+				},
+				{
+					"id": 147030,
+					"name": "Ivan Bašić",
+					"position": "Midfield"
+				},
+				{
+					"id": 189280,
+					"name": "Benjamin Tahirovic",
+					"position": "Midfield"
+				},
+				{
+					"id": 221764,
+					"name": "Ermin Mahmic",
+					"position": "Midfield"
+				},
+				{
+					"id": 275052,
+					"name": "Amar Memić",
+					"position": "Midfield"
+				},
+				{
+					"id": 1822,
+					"name": "Edin Džeko",
+					"position": "Offence"
+				},
+				{
+					"id": 17767,
+					"name": "Jovo Lukić",
+					"position": "Offence"
+				},
+				{
+					"id": 33242,
+					"name": "Ermedin Demirovic",
+					"position": "Offence"
+				},
+				{
+					"id": 63218,
+					"name": "Haris Tabaković",
+					"position": "Offence"
+				},
+				{
+					"id": 172226,
+					"name": "Samed Bazdar",
+					"position": "Offence"
+				},
+				{
+					"id": 186380,
+					"name": "Esmir Bajraktarevic",
+					"position": "Offence"
+				},
+				{
+					"id": 272213,
+					"name": "Kerim Alajbegović",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 1836,
+			"name": "Panama",
+			"tla": "PAN",
+			"squad": [
+				{
+					"id": 28382,
+					"name": "Luis Mejía",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 100186,
+					"name": "Orlando Mosquera",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 110566,
+					"name": "Cesar Samudio",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 22771,
+					"name": "Roderick Miller",
+					"position": "Defence"
+				},
+				{
+					"id": 43786,
+					"name": "Fidel Escobar",
+					"position": "Defence"
+				},
+				{
+					"id": 43787,
+					"name": "Éric Davis",
+					"position": "Defence"
+				},
+				{
+					"id": 76711,
+					"name": "Andrés Andrade",
+					"position": "Defence"
+				},
+				{
+					"id": 84481,
+					"name": "César Blackman",
+					"position": "Defence"
+				},
+				{
+					"id": 100199,
+					"name": "Jiovany Ramos",
+					"position": "Defence"
+				},
+				{
+					"id": 103208,
+					"name": "José Cordoba",
+					"position": "Defence"
+				},
+				{
+					"id": 188908,
+					"name": "Michael Murillo",
+					"position": "Defence"
+				},
+				{
+					"id": 253717,
+					"name": "Edgardo Fariña",
+					"position": "Defence"
+				},
+				{
+					"id": 275040,
+					"name": "Jorge Gutiérrez",
+					"position": "Defence"
+				},
+				{
+					"id": 3864,
+					"name": "Adalberto Carrasquilla",
+					"position": "Midfield"
+				},
+				{
+					"id": 8919,
+					"name": "José Luis Rodríguez",
+					"position": "Midfield"
+				},
+				{
+					"id": 28668,
+					"name": "Cecilio Waterman",
+					"position": "Midfield"
+				},
+				{
+					"id": 39139,
+					"name": "Édgar Bárcenas",
+					"position": "Midfield"
+				},
+				{
+					"id": 43793,
+					"name": "Aníbal Godoy",
+					"position": "Midfield"
+				},
+				{
+					"id": 58751,
+					"name": "Alberto Quintero",
+					"position": "Midfield"
+				},
+				{
+					"id": 103158,
+					"name": "Carlos Harvey",
+					"position": "Midfield"
+				},
+				{
+					"id": 110577,
+					"name": "César Yanis",
+					"position": "Midfield"
+				},
+				{
+					"id": 166946,
+					"name": "Christian Martinez",
+					"position": "Midfield"
+				},
+				{
+					"id": 3868,
+					"name": "José Fajardo",
+					"position": "Offence"
+				},
+				{
+					"id": 43795,
+					"name": "Ismael Díaz",
+					"position": "Offence"
+				},
+				{
+					"id": 105650,
+					"name": "Tomas Rodriguez",
+					"position": "Offence"
+				},
+				{
+					"id": 159094,
+					"name": "Azarias Londoño",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 1930,
+			"name": "Cape Verde Islands",
+			"tla": "CPV",
+			"squad": [
+				{
+					"id": 53172,
+					"name": "Márcio Rosa",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 120725,
+					"name": "Vózinha",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 150997,
+					"name": "C.J. dos Santos",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 593,
+					"name": "Steven Moreira",
+					"position": "Defence"
+				},
+				{
+					"id": 814,
+					"name": "Logan Costa",
+					"position": "Defence"
+				},
+				{
+					"id": 36618,
+					"name": "Roberto Lopes",
+					"position": "Defence"
+				},
+				{
+					"id": 45328,
+					"name": "Diney Borges",
+					"position": "Defence"
+				},
+				{
+					"id": 63097,
+					"name": "Stopira",
+					"position": "Defence"
+				},
+				{
+					"id": 209178,
+					"name": "Sidny Lopes Cabral",
+					"position": "Defence"
+				},
+				{
+					"id": 213136,
+					"name": "Wagner Pina",
+					"position": "Defence"
+				},
+				{
+					"id": 246869,
+					"name": "Kelvin Pires",
+					"position": "Defence"
+				},
+				{
+					"id": 7759,
+					"name": "Deroy Duarte",
+					"position": "Midfield"
+				},
+				{
+					"id": 30554,
+					"name": "Garry Rodrigues",
+					"position": "Midfield"
+				},
+				{
+					"id": 40121,
+					"name": "Kevin Pina",
+					"position": "Midfield"
+				},
+				{
+					"id": 67968,
+					"name": "Laros Duarte",
+					"position": "Midfield"
+				},
+				{
+					"id": 103108,
+					"name": "Yannick Semedo",
+					"position": "Midfield"
+				},
+				{
+					"id": 145346,
+					"name": "Telmo Arcanjo",
+					"position": "Midfield"
+				},
+				{
+					"id": 167455,
+					"name": "Jamiro Monteiro",
+					"position": "Midfield"
+				},
+				{
+					"id": 212575,
+					"name": "João Paulo",
+					"position": "Midfield"
+				},
+				{
+					"id": 9278,
+					"name": "Willy Semedo",
+					"position": "Offence"
+				},
+				{
+					"id": 30502,
+					"name": "Ryan Mendes",
+					"position": "Offence"
+				},
+				{
+					"id": 37116,
+					"name": "Jovane Cabral",
+					"position": "Offence"
+				},
+				{
+					"id": 151942,
+					"name": "Gilson Tavares",
+					"position": "Offence"
+				},
+				{
+					"id": 166784,
+					"name": "Nuno Da Costa",
+					"position": "Offence"
+				},
+				{
+					"id": 175919,
+					"name": "Dailon Rocha Livramento",
+					"position": "Offence"
+				},
+				{
+					"id": 213119,
+					"name": "Hélio Varela",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 1934,
+			"name": "Congo DR",
+			"tla": "COD",
+			"squad": [
+				{
+					"id": 98898,
+					"name": "Timothy Fayulu",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 106838,
+					"name": "Lionel Mpasi",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 170838,
+					"name": "Matthieu Epolo",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3894,
+					"name": "Axel Tuanzebe",
+					"position": "Defence"
+				},
+				{
+					"id": 7918,
+					"name": "Chancel Mbemba",
+					"position": "Defence"
+				},
+				{
+					"id": 8158,
+					"name": "Aaron Wan-Bissaka",
+					"position": "Defence"
+				},
+				{
+					"id": 8204,
+					"name": "Arthur Masuaku",
+					"position": "Defence"
+				},
+				{
+					"id": 8700,
+					"name": "Joris Kayembe",
+					"position": "Defence"
+				},
+				{
+					"id": 9160,
+					"name": "Dylan Batubinsika",
+					"position": "Defence"
+				},
+				{
+					"id": 82600,
+					"name": "Gédéon Kalulu",
+					"position": "Defence"
+				},
+				{
+					"id": 220602,
+					"name": "Steve Kapuadi",
+					"position": "Defence"
+				},
+				{
+					"id": 8596,
+					"name": "Gaël Kakuta",
+					"position": "Midfield"
+				},
+				{
+					"id": 8701,
+					"name": "Samuel Moutoussamy",
+					"position": "Midfield"
+				},
+				{
+					"id": 8854,
+					"name": "Edo Kayembe",
+					"position": "Midfield"
+				},
+				{
+					"id": 14596,
+					"name": "Aaron Tshibola",
+					"position": "Midfield"
+				},
+				{
+					"id": 30876,
+					"name": "Charles Pickel",
+					"position": "Midfield"
+				},
+				{
+					"id": 182273,
+					"name": "Noah Sadiki",
+					"position": "Midfield"
+				},
+				{
+					"id": 192666,
+					"name": "Ngal'ayel Mukau",
+					"position": "Midfield"
+				},
+				{
+					"id": 612,
+					"name": "Yoane Wissa",
+					"position": "Offence"
+				},
+				{
+					"id": 9309,
+					"name": "Theo Bongonda",
+					"position": "Offence"
+				},
+				{
+					"id": 21583,
+					"name": "Cédric Bakambu",
+					"position": "Offence"
+				},
+				{
+					"id": 74554,
+					"name": "Simon Banza",
+					"position": "Offence"
+				},
+				{
+					"id": 125668,
+					"name": "Nathanael Mbuku",
+					"position": "Offence"
+				},
+				{
+					"id": 166776,
+					"name": "Meschack Elia",
+					"position": "Offence"
+				},
+				{
+					"id": 243626,
+					"name": "Brian Cipenga",
+					"position": "Offence"
+				},
+				{
+					"id": 245577,
+					"name": "Fiston Mayele",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 1935,
+			"name": "Ivory Coast",
+			"tla": "CIV",
+			"squad": [
+				{
+					"id": 616,
+					"name": "Yahia Fofana",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 8292,
+					"name": "Alban Lafont",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 170943,
+					"name": "Mohamed Kone",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 526,
+					"name": "Evan N'Dicka",
+					"position": "Defence"
+				},
+				{
+					"id": 700,
+					"name": "Christopher Operi",
+					"position": "Defence"
+				},
+				{
+					"id": 37432,
+					"name": "Ghislain Konan",
+					"position": "Defence"
+				},
+				{
+					"id": 113375,
+					"name": "Wilfried Singo",
+					"position": "Defence"
+				},
+				{
+					"id": 135473,
+					"name": "Guela Doué",
+					"position": "Defence"
+				},
+				{
+					"id": 149731,
+					"name": "Emmanuel Agbadou",
+					"position": "Defence"
+				},
+				{
+					"id": 167098,
+					"name": "Odilon Kossounou",
+					"position": "Defence"
+				},
+				{
+					"id": 191760,
+					"name": "Ousmane Diomande",
+					"position": "Defence"
+				},
+				{
+					"id": 1747,
+					"name": "Franck Kessié",
+					"position": "Midfield"
+				},
+				{
+					"id": 2126,
+					"name": "Seko Fofana",
+					"position": "Midfield"
+				},
+				{
+					"id": 8307,
+					"name": "Ibrahim Sangaré",
+					"position": "Midfield"
+				},
+				{
+					"id": 8430,
+					"name": "Jean Michaël Seri",
+					"position": "Midfield"
+				},
+				{
+					"id": 133584,
+					"name": "Amad Diallo",
+					"position": "Midfield"
+				},
+				{
+					"id": 144698,
+					"name": "Parfait Guiagon",
+					"position": "Midfield"
+				},
+				{
+					"id": 269161,
+					"name": "Christ Ravynel Inao Oulaï",
+					"position": "Midfield"
+				},
+				{
+					"id": 8412,
+					"name": "Nicolas Pépé",
+					"position": "Offence"
+				},
+				{
+					"id": 128710,
+					"name": "Evann Guessand",
+					"position": "Offence"
+				},
+				{
+					"id": 152738,
+					"name": "Ange-Yoan Bonny",
+					"position": "Offence"
+				},
+				{
+					"id": 156808,
+					"name": "Sepe Elye Wahi",
+					"position": "Offence"
+				},
+				{
+					"id": 166249,
+					"name": "Simon Adingra",
+					"position": "Offence"
+				},
+				{
+					"id": 188275,
+					"name": "Oumar Diakite",
+					"position": "Offence"
+				},
+				{
+					"id": 249312,
+					"name": "Bazoumana Touré",
+					"position": "Offence"
+				},
+				{
+					"id": 277484,
+					"name": "Yan Diomandé",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8030,
+			"name": "Qatar",
+			"tla": "QAT",
+			"squad": [
+				{
+					"id": 103173,
+					"name": "Salah Zakaria",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 129104,
+					"name": "Meshaal Barsham",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 156781,
+					"name": "Mahmoud Abunada",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 115828,
+					"name": "Boualem Khoukhi",
+					"position": "Defence"
+				},
+				{
+					"id": 189707,
+					"name": "Jassem Gaber Abdulsallam",
+					"position": "Defence"
+				},
+				{
+					"id": 189725,
+					"name": "Homam Ahmed",
+					"position": "Defence"
+				},
+				{
+					"id": 189969,
+					"name": "Ró-Ró",
+					"position": "Defence"
+				},
+				{
+					"id": 194260,
+					"name": "Lucas Mendes",
+					"position": "Defence"
+				},
+				{
+					"id": 249804,
+					"name": "Sultan Al Brake",
+					"position": "Defence"
+				},
+				{
+					"id": 253305,
+					"name": "Hashemi Al Hussain",
+					"position": "Defence"
+				},
+				{
+					"id": 295191,
+					"name": "Issa Laye",
+					"position": "Defence"
+				},
+				{
+					"id": 295196,
+					"name": "Ayoub Al-Oui",
+					"position": "Defence"
+				},
+				{
+					"id": 57667,
+					"name": "Assim Madibo",
+					"position": "Midfield"
+				},
+				{
+					"id": 115827,
+					"name": "Abdulaziz Hatem",
+					"position": "Midfield"
+				},
+				{
+					"id": 115829,
+					"name": "Karim Boudiaf",
+					"position": "Midfield"
+				},
+				{
+					"id": 115832,
+					"name": "Ahmed Fathy",
+					"position": "Midfield"
+				},
+				{
+					"id": 129107,
+					"name": "Yusuf Abdurisag",
+					"position": "Midfield"
+				},
+				{
+					"id": 249923,
+					"name": "Ahmed Al Ganehi",
+					"position": "Midfield"
+				},
+				{
+					"id": 253301,
+					"name": "Tahsin Jamshid",
+					"position": "Midfield"
+				},
+				{
+					"id": 295195,
+					"name": "Mohamed Al-Mannai",
+					"position": "Midfield"
+				},
+				{
+					"id": 57652,
+					"name": "Akram Afif",
+					"position": "Offence"
+				},
+				{
+					"id": 115837,
+					"name": "Almoez Ali",
+					"position": "Offence"
+				},
+				{
+					"id": 135684,
+					"name": "Mohammed Muntari",
+					"position": "Offence"
+				},
+				{
+					"id": 189973,
+					"name": "Hassan Al Haydos",
+					"position": "Offence"
+				},
+				{
+					"id": 189976,
+					"name": "Ahmed Alaa Eldin",
+					"position": "Offence"
+				},
+				{
+					"id": 255986,
+					"name": "Edmílson",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8049,
+			"name": "Jordan",
+			"tla": "JOR",
+			"squad": [
+				{
+					"id": 243818,
+					"name": "Yazeed Abu Layla",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 249669,
+					"name": "Abdallah Al Fakhouri",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 250010,
+					"name": "Noureddin Bani Ateyah",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 116915,
+					"name": "Ehsan Haddad",
+					"position": "Defence"
+				},
+				{
+					"id": 116921,
+					"name": "Saleem Obaid",
+					"position": "Defence"
+				},
+				{
+					"id": 119303,
+					"name": "Yazan Al Arab",
+					"position": "Defence"
+				},
+				{
+					"id": 202806,
+					"name": "Mohammad Abualnadi",
+					"position": "Defence"
+				},
+				{
+					"id": 244110,
+					"name": "Abdallah Naseeb",
+					"position": "Defence"
+				},
+				{
+					"id": 249653,
+					"name": "Saed Al Rosan",
+					"position": "Defence"
+				},
+				{
+					"id": 295354,
+					"name": "Husam Abu Dahab",
+					"position": "Defence"
+				},
+				{
+					"id": 295867,
+					"name": "Anas Badawi",
+					"position": "Defence"
+				},
+				{
+					"id": 231890,
+					"name": "Nizar Al Rashdan",
+					"position": "Midfield"
+				},
+				{
+					"id": 244171,
+					"name": "Rajaei Ayed",
+					"position": "Midfield"
+				},
+				{
+					"id": 244206,
+					"name": "Noor Al Rawabdeh",
+					"position": "Midfield"
+				},
+				{
+					"id": 244241,
+					"name": "Mohammad Abu Hasheesh",
+					"position": "Midfield"
+				},
+				{
+					"id": 249756,
+					"name": "Ibrahim Saadeh",
+					"position": "Midfield"
+				},
+				{
+					"id": 295351,
+					"name": "Mohammad Al-Dawoud",
+					"position": "Midfield"
+				},
+				{
+					"id": 295352,
+					"name": "Amer Jamous",
+					"position": "Midfield"
+				},
+				{
+					"id": 98763,
+					"name": "Musa Al Taamari",
+					"position": "Offence"
+				},
+				{
+					"id": 116928,
+					"name": "Mahmoud Al Mardi",
+					"position": "Offence"
+				},
+				{
+					"id": 244174,
+					"name": "Ali Olwan",
+					"position": "Offence"
+				},
+				{
+					"id": 244346,
+					"name": "Mohannad Abu Taha",
+					"position": "Offence"
+				},
+				{
+					"id": 249762,
+					"name": "Mohammad Abu Zrayq",
+					"position": "Offence"
+				},
+				{
+					"id": 280317,
+					"name": "Ibrahim Sabra",
+					"position": "Offence"
+				},
+				{
+					"id": 295348,
+					"name": "Odeh Fakhoury",
+					"position": "Offence"
+				},
+				{
+					"id": 295350,
+					"name": "Ali Azaizeh",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8062,
+			"name": "Iraq",
+			"tla": "IRQ",
+			"squad": [
+				{
+					"id": 117137,
+					"name": "Jalal Hassan",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 132162,
+					"name": "Fahad Talib",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 236206,
+					"name": "Ahmed Basil",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 129968,
+					"name": "Hussein Ali",
+					"position": "Defence"
+				},
+				{
+					"id": 152724,
+					"name": "Merchas Doski",
+					"position": "Defence"
+				},
+				{
+					"id": 210821,
+					"name": "Rebin Sulaka",
+					"position": "Defence"
+				},
+				{
+					"id": 236191,
+					"name": "Mustafa Saadoun",
+					"position": "Defence"
+				},
+				{
+					"id": 236195,
+					"name": "Ahmed Yahya",
+					"position": "Defence"
+				},
+				{
+					"id": 236201,
+					"name": "Frans Putros",
+					"position": "Defence"
+				},
+				{
+					"id": 249839,
+					"name": "Zaid Tahseen",
+					"position": "Defence"
+				},
+				{
+					"id": 249877,
+					"name": "Manaf Younis",
+					"position": "Defence"
+				},
+				{
+					"id": 253190,
+					"name": "Akam Hashem",
+					"position": "Defence"
+				},
+				{
+					"id": 31373,
+					"name": "Amir Al Ammari",
+					"position": "Midfield"
+				},
+				{
+					"id": 35515,
+					"name": "Kevin Yakob",
+					"position": "Midfield"
+				},
+				{
+					"id": 117481,
+					"name": "Aimar Sher",
+					"position": "Midfield"
+				},
+				{
+					"id": 123067,
+					"name": "Ibrahim Bayesh",
+					"position": "Midfield"
+				},
+				{
+					"id": 165049,
+					"name": "Youssef Amyn",
+					"position": "Midfield"
+				},
+				{
+					"id": 167462,
+					"name": "Ahmed Qasem",
+					"position": "Midfield"
+				},
+				{
+					"id": 176642,
+					"name": "Zidane Iqbal",
+					"position": "Midfield"
+				},
+				{
+					"id": 295321,
+					"name": "Zaid Ismail",
+					"position": "Midfield"
+				},
+				{
+					"id": 117153,
+					"name": "Aymen Hussein",
+					"position": "Offence"
+				},
+				{
+					"id": 177008,
+					"name": "Ali Al-Hamadi",
+					"position": "Offence"
+				},
+				{
+					"id": 193630,
+					"name": "Marko Farji",
+					"position": "Offence"
+				},
+				{
+					"id": 218847,
+					"name": "Ali Jassim El-Aibi",
+					"position": "Offence"
+				},
+				{
+					"id": 221753,
+					"name": "Mohanad Ali",
+					"position": "Offence"
+				},
+				{
+					"id": 295189,
+					"name": "Ali Yousif",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8070,
+			"name": "Uzbekistan",
+			"tla": "UZB",
+			"squad": [
+				{
+					"id": 243911,
+					"name": "Abduvakhid Nematov",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 244395,
+					"name": "Botir Ergashev",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 244531,
+					"name": "Utkir Yusupov",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 132172,
+					"name": "Rustam Ashurmatov",
+					"position": "Defence"
+				},
+				{
+					"id": 132173,
+					"name": "Umar Eshmurodov",
+					"position": "Defence"
+				},
+				{
+					"id": 212868,
+					"name": "Abdukodir Khusanov",
+					"position": "Defence"
+				},
+				{
+					"id": 221787,
+					"name": "Jakhongir O'rozov",
+					"position": "Defence"
+				},
+				{
+					"id": 231904,
+					"name": "Farrukh Sayfiyev",
+					"position": "Defence"
+				},
+				{
+					"id": 243825,
+					"name": "Khodjiakbar Alijonov",
+					"position": "Defence"
+				},
+				{
+					"id": 243838,
+					"name": "Sherzod Nasrullayev",
+					"position": "Defence"
+				},
+				{
+					"id": 243928,
+					"name": "Abdulla Abdullayev",
+					"position": "Defence"
+				},
+				{
+					"id": 295345,
+					"name": "Bekhruz Karimov",
+					"position": "Defence"
+				},
+				{
+					"id": 295866,
+					"name": "Avazbek Ulmasaliev",
+					"position": "Defence"
+				},
+				{
+					"id": 49149,
+					"name": "Dostonbek Xamdamov",
+					"position": "Midfield"
+				},
+				{
+					"id": 117321,
+					"name": "Otabek Shukurov",
+					"position": "Midfield"
+				},
+				{
+					"id": 119221,
+					"name": "Oston Urunov",
+					"position": "Midfield"
+				},
+				{
+					"id": 132176,
+					"name": "Jamshid Iskanderov",
+					"position": "Midfield"
+				},
+				{
+					"id": 149716,
+					"name": "Akmal Mozgovoy",
+					"position": "Midfield"
+				},
+				{
+					"id": 214531,
+					"name": "Abbosbek Fayzullaev",
+					"position": "Midfield"
+				},
+				{
+					"id": 232740,
+					"name": "Azizjon Ganiev",
+					"position": "Midfield"
+				},
+				{
+					"id": 232753,
+					"name": "Odiljon Hamrobekov",
+					"position": "Midfield"
+				},
+				{
+					"id": 262464,
+					"name": "Sherzod Esanov",
+					"position": "Midfield"
+				},
+				{
+					"id": 49307,
+					"name": "Eldor Shomurodov",
+					"position": "Offence"
+				},
+				{
+					"id": 117326,
+					"name": "Jaloliddin Masharipov",
+					"position": "Offence"
+				},
+				{
+					"id": 183140,
+					"name": "Igor Sergeev",
+					"position": "Offence"
+				},
+				{
+					"id": 249659,
+					"name": "Azizbek Amonov",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8601,
+			"name": "Netherlands",
+			"tla": "NED",
+			"squad": [
+				{
+					"id": 9923,
+					"name": "Mark Flekken",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 126870,
+					"name": "Bart Verbruggen",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 137691,
+					"name": "Robin Roefs",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 7417,
+					"name": "Denzel Dumfries",
+					"position": "Defence"
+				},
+				{
+					"id": 7869,
+					"name": "Virgil van Dijk",
+					"position": "Defence"
+				},
+				{
+					"id": 8240,
+					"name": "Nathan Aké",
+					"position": "Defence"
+				},
+				{
+					"id": 98566,
+					"name": "Jan Paul van Hecke",
+					"position": "Defence"
+				},
+				{
+					"id": 98816,
+					"name": "Jurrien Timber",
+					"position": "Defence"
+				},
+				{
+					"id": 131177,
+					"name": "Mickey van de Ven",
+					"position": "Defence"
+				},
+				{
+					"id": 189477,
+					"name": "Jorrel Hato",
+					"position": "Defence"
+				},
+				{
+					"id": 1848,
+					"name": "Marten de Roon",
+					"position": "Midfield"
+				},
+				{
+					"id": 7457,
+					"name": "Donyell Malen",
+					"position": "Midfield"
+				},
+				{
+					"id": 7559,
+					"name": "Frenkie de Jong",
+					"position": "Midfield"
+				},
+				{
+					"id": 7565,
+					"name": "Noa Lang",
+					"position": "Midfield"
+				},
+				{
+					"id": 7688,
+					"name": "Guus Til",
+					"position": "Midfield"
+				},
+				{
+					"id": 7693,
+					"name": "Teun Koopmeiners",
+					"position": "Midfield"
+				},
+				{
+					"id": 7696,
+					"name": "Tijjani Reijnders",
+					"position": "Midfield"
+				},
+				{
+					"id": 81793,
+					"name": "Ryan Gravenberch",
+					"position": "Midfield"
+				},
+				{
+					"id": 97505,
+					"name": "Mats Wieffer",
+					"position": "Midfield"
+				},
+				{
+					"id": 97536,
+					"name": "Quinten Timber",
+					"position": "Midfield"
+				},
+				{
+					"id": 102193,
+					"name": "Crysencio Summerville",
+					"position": "Midfield"
+				},
+				{
+					"id": 7459,
+					"name": "Cody Gakpo",
+					"position": "Offence"
+				},
+				{
+					"id": 7561,
+					"name": "Justin Kluivert",
+					"position": "Offence"
+				},
+				{
+					"id": 7697,
+					"name": "Wout Weghorst",
+					"position": "Offence"
+				},
+				{
+					"id": 8472,
+					"name": "Memphis Depay",
+					"position": "Offence"
+				},
+				{
+					"id": 97535,
+					"name": "Brian Brobbey",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8872,
+			"name": "Norway",
+			"tla": "NOR",
+			"squad": [
+				{
+					"id": 6843,
+					"name": "Ørjan Nyland",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 44441,
+					"name": "Egil Selvik",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 146024,
+					"name": "Sander Tangvik",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 16068,
+					"name": "Kristoffer Ajer",
+					"position": "Defence"
+				},
+				{
+					"id": 16197,
+					"name": "Torbjørn Heggem",
+					"position": "Defence"
+				},
+				{
+					"id": 37913,
+					"name": "Fredrik Bjørkan",
+					"position": "Defence"
+				},
+				{
+					"id": 38548,
+					"name": "Marcus Pedersen",
+					"position": "Defence"
+				},
+				{
+					"id": 44030,
+					"name": "Julian Ryerson",
+					"position": "Defence"
+				},
+				{
+					"id": 44032,
+					"name": "Leo Østigård",
+					"position": "Defence"
+				},
+				{
+					"id": 135036,
+					"name": "Henrik Falchener",
+					"position": "Defence"
+				},
+				{
+					"id": 145159,
+					"name": "Sondre Langås",
+					"position": "Defence"
+				},
+				{
+					"id": 205467,
+					"name": "David Wolfe",
+					"position": "Defence"
+				},
+				{
+					"id": 7421,
+					"name": "Morten Thorsby",
+					"position": "Midfield"
+				},
+				{
+					"id": 7427,
+					"name": "Martin Ødegaard",
+					"position": "Midfield"
+				},
+				{
+					"id": 8973,
+					"name": "Sander Berge",
+					"position": "Midfield"
+				},
+				{
+					"id": 37924,
+					"name": "Patrick Berg",
+					"position": "Midfield"
+				},
+				{
+					"id": 38088,
+					"name": "Fredrik Aursnes",
+					"position": "Midfield"
+				},
+				{
+					"id": 44033,
+					"name": "Kristian Thorstvedt",
+					"position": "Midfield"
+				},
+				{
+					"id": 150589,
+					"name": "Thelo Aasgaard",
+					"position": "Midfield"
+				},
+				{
+					"id": 169295,
+					"name": "Antonio Nusa",
+					"position": "Midfield"
+				},
+				{
+					"id": 179716,
+					"name": "Oscar Bobb",
+					"position": "Midfield"
+				},
+				{
+					"id": 8167,
+					"name": "Alexander Sørloth",
+					"position": "Offence"
+				},
+				{
+					"id": 37916,
+					"name": "Jens Hauge",
+					"position": "Offence"
+				},
+				{
+					"id": 38101,
+					"name": "Erling Haaland",
+					"position": "Offence"
+				},
+				{
+					"id": 157796,
+					"name": "Andreas Schjelderup",
+					"position": "Offence"
+				},
+				{
+					"id": 213269,
+					"name": "Jørgen Strand Larsen",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 8873,
+			"name": "Scotland",
+			"tla": "SCO",
+			"squad": [
+				{
+					"id": 3981,
+					"name": "Angus Gunn",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 15607,
+					"name": "Craig Gordon",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 34960,
+					"name": "Liam Kelly",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 3986,
+					"name": "Grant Hanley",
+					"position": "Defence"
+				},
+				{
+					"id": 5769,
+					"name": "Dominic Hyam",
+					"position": "Defence"
+				},
+				{
+					"id": 7868,
+					"name": "Andrew Robertson",
+					"position": "Defence"
+				},
+				{
+					"id": 15615,
+					"name": "Kieran Tierney",
+					"position": "Defence"
+				},
+				{
+					"id": 16070,
+					"name": "Jack Hendry",
+					"position": "Defence"
+				},
+				{
+					"id": 34411,
+					"name": "Anthony Ralston",
+					"position": "Defence"
+				},
+				{
+					"id": 34429,
+					"name": "John Souttar",
+					"position": "Defence"
+				},
+				{
+					"id": 34486,
+					"name": "Scott McKenna",
+					"position": "Defence"
+				},
+				{
+					"id": 101111,
+					"name": "Aaron Hickey",
+					"position": "Defence"
+				},
+				{
+					"id": 138174,
+					"name": "Nathan Patterson",
+					"position": "Defence"
+				},
+				{
+					"id": 7905,
+					"name": "Scott McTominay",
+					"position": "Midfield"
+				},
+				{
+					"id": 34494,
+					"name": "Kenny McLean",
+					"position": "Midfield"
+				},
+				{
+					"id": 34495,
+					"name": "Ryan Christie",
+					"position": "Midfield"
+				},
+				{
+					"id": 34638,
+					"name": "Lewis Ferguson",
+					"position": "Midfield"
+				},
+				{
+					"id": 34646,
+					"name": "John McGinn",
+					"position": "Midfield"
+				},
+				{
+					"id": 176789,
+					"name": "Ben Doak",
+					"position": "Midfield"
+				},
+				{
+					"id": 270697,
+					"name": "Findlay Curtis",
+					"position": "Midfield"
+				},
+				{
+					"id": 290139,
+					"name": "Tyler Fletcher",
+					"position": "Midfield"
+				},
+				{
+					"id": 4119,
+					"name": "Che Adams",
+					"position": "Offence"
+				},
+				{
+					"id": 25606,
+					"name": "George Hirst",
+					"position": "Offence"
+				},
+				{
+					"id": 35101,
+					"name": "Ross Stewart",
+					"position": "Offence"
+				},
+				{
+					"id": 35126,
+					"name": "Lyndon Dykes",
+					"position": "Offence"
+				},
+				{
+					"id": 52043,
+					"name": "Lawrence Shankland",
+					"position": "Offence"
+				}
+			]
+		},
+		{
+			"id": 9460,
+			"name": "Curaçao",
+			"tla": "CUW",
+			"squad": [
+				{
+					"id": 7412,
+					"name": "Trevor Doornbusch",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 7437,
+					"name": "Eloy Room",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 171283,
+					"name": "Tyrick Bodak",
+					"position": "Goalkeeper"
+				},
+				{
+					"id": 7229,
+					"name": "Roshon van Eijma",
+					"position": "Defence"
+				},
+				{
+					"id": 7438,
+					"name": "Joshua Brenet",
+					"position": "Defence"
+				},
+				{
+					"id": 7443,
+					"name": "Armando Obispo",
+					"position": "Defence"
+				},
+				{
+					"id": 7744,
+					"name": "Sheral Floranus",
+					"position": "Defence"
+				},
+				{
+					"id": 9428,
+					"name": "Riechedly Bazoer",
+					"position": "Defence"
+				},
+				{
+					"id": 55417,
+					"name": "Juriën Gaari",
+					"position": "Defence"
+				},
+				{
+					"id": 137697,
+					"name": "Shurandy Sambo",
+					"position": "Defence"
+				},
+				{
+					"id": 149120,
+					"name": "Ar'jany Martha",
+					"position": "Defence"
+				},
+				{
+					"id": 166156,
+					"name": "Livano Comenencia",
+					"position": "Defence"
+				},
+				{
+					"id": 177433,
+					"name": "Deveron Fonville",
+					"position": "Defence"
+				},
+				{
+					"id": 191954,
+					"name": "Tyrese Noslin",
+					"position": "Defence"
+				},
+				{
+					"id": 4280,
+					"name": "Leandro Bacuna",
+					"position": "Midfield"
+				},
+				{
+					"id": 7274,
+					"name": "Godfried Roemeratoe",
+					"position": "Midfield"
+				},
+				{
+					"id": 7518,
+					"name": "Juninho Bacuna",
+					"position": "Midfield"
+				},
+				{
+					"id": 53327,
+					"name": "Kevin Felida",
+					"position": "Midfield"
+				},
+				{
+					"id": 6597,
+					"name": "Gervane Kastaneer",
+					"position": "Offence"
+				},
+				{
+					"id": 7986,
+					"name": "Kenji Gorré",
+					"position": "Offence"
+				},
+				{
+					"id": 8288,
+					"name": "Jürgen Locadia",
+					"position": "Offence"
+				},
+				{
+					"id": 98483,
+					"name": "Tahith Chong",
+					"position": "Offence"
+				},
+				{
+					"id": 137025,
+					"name": "Sontje Hansen",
+					"position": "Offence"
+				},
+				{
+					"id": 149134,
+					"name": "Jearl Margaritha",
+					"position": "Offence"
+				},
+				{
+					"id": 156631,
+					"name": "Jeremy Antonisse",
+					"position": "Offence"
+				},
+				{
+					"id": 190770,
+					"name": "Brandley Kuwas",
+					"position": "Offence"
+				}
+			]
+		}
+	]
+}
