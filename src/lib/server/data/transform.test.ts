@@ -146,7 +146,7 @@ describe('seeded pool plays by the game rules', () => {
 		// the test from flaking while still proving the pool can make a legal XI.
 		let valid = false;
 		for (let attempt = 0; attempt < 5 && !valid; attempt++) {
-			valid = isValid(randomize(pool));
+			valid = isValid(randomize(pool, RULES), RULES);
 		}
 		expect(valid).toBe(true);
 	});

@@ -1,3 +1,24 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/*
+ * Startuplab brand theme.
+ * Palette and typography from the Startuplab Brand Guidelines:
+ * primary Red #FF3333, Dark Gray #1D2526, White; secondary Dark Red,
+ * Pink, Brown; greens for success states. Primary typeface is Replica,
+ * with Rubik as the approved fallback (used here); Gelasio is the
+ * secondary/editorial typeface.
+ */
+@theme {
+	--font-sans: 'Rubik', ui-sans-serif, system-ui, sans-serif;
+	--font-display: 'Gelasio', Georgia, serif;
+
+	--color-brand: #ff3333;
+	--color-brand-dark: #cc292e;
+	--color-brand-pink: #ffe5ea;
+	--color-ink: #1d2526;
+	--color-brown: #422e2f;
+	--color-mint: #f1feee;
+	--color-forest: #065342;
+}

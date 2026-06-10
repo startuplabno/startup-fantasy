@@ -19,13 +19,15 @@
 		"db:push": "drizzle-kit push",
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio",
 		"db:seed": "tsx --env-file=.env scripts/seed.ts",
+		"db:ingest": "tsx src/lib/server/db/ingest.ts",
+		"db:studio": "drizzle-kit studio",
 		"auth:schema": "better-auth generate --config src/lib/server/auth.ts --output src/lib/server/db/auth.schema.ts --yes"
 	},
 	"devDependencies": {
 		"@better-auth/cli": "~1.4.21",
 		"@eslint/js": "^10.0.1",
+		"@iconify/json": "^2.2.484",
 		"@playwright/test": "^1.60.0",
 		"@sveltejs/adapter-node": "^5.5.4",
 		"@sveltejs/kit": "^2.57.0",
@@ -35,6 +37,7 @@
 		"@tailwindcss/vite": "^4.2.2",
 		"@types/node": "^22",
 		"better-auth": "~1.4.21",
+		"dotenv": "^17.4.2",
 		"drizzle-kit": "^0.31.10",
 		"drizzle-orm": "^0.45.2",
 		"eslint": "^10.4.0",
@@ -48,9 +51,10 @@
 		"svelte": "^5.55.2",
 		"svelte-check": "^4.4.6",
 		"tailwindcss": "^4.2.2",
-		"tsx": "^4.19.2",
+		"tsx": "^4.22.4",
 		"typescript": "^6.0.2",
 		"typescript-eslint": "^8.58.1",
+		"unplugin-icons": "^23.0.1",
 		"vite": "^8.0.7",
 		"vitest": "^4.1.3"
 	}

@@ -1,3 +1,4 @@
+/// <reference types="unplugin-icons/types/svelte" />
 import type { User, Session } from 'better-auth';
 
 // See https://svelte.dev/docs/kit/types#app.d.ts
