@@ -1,6 +1,87 @@
 import type { Player } from './types';
 
 /**
+ * URL of a player's headshot on the API-Football CDN. Our player ids are
+ * API-Football ids, so the photo URL is fully derivable — no API call or DB
+ * column needed. Not every id has an image, so callers must handle 404s (see
+ * `PlayerAvatar.svelte`).
+ */
+export function playerPhotoUrl(id: string): string {
+	return `https://media.api-sports.io/football/players/${id}.png`;
+}
+
+// Nation name/id -> ISO 3166 flag code (gb-eng etc. for the UK home nations).
+// Keys are the nation name lowercased with all non-letter characters stripped,
+// matching the normalization in nationFlagUrl below.
+const NATION_CODES: Record<string, string> = {
+	// Qatar 2022 World Cup nations
+	qatar: 'qa',
+	ecuador: 'ec',
+	senegal: 'sn',
+	netherlands: 'nl',
+	england: 'gb-eng',
+	iran: 'ir',
+	usa: 'us',
+	unitedstates: 'us',
+	wales: 'gb-wls',
+	scotland: 'gb-sct',
+	argentina: 'ar',
+	saudiarabia: 'sa',
+	mexico: 'mx',
+	poland: 'pl',
+	france: 'fr',
+	australia: 'au',
+	denmark: 'dk',
+	tunisia: 'tn',
+	spain: 'es',
+	costarica: 'cr',
+	germany: 'de',
+	japan: 'jp',
+	belgium: 'be',
+	canada: 'ca',
+	morocco: 'ma',
+	croatia: 'hr',
+	brazil: 'br',
+	serbia: 'rs',
+	switzerland: 'ch',
+	cameroon: 'cm',
+	portugal: 'pt',
+	ghana: 'gh',
+	uruguay: 'uy',
+	southkorea: 'kr',
+	korearepublic: 'kr',
+	norway: 'no',
+	sweden: 'se',
+	// 2026 World Cup additions (48-team format)
+	paraguay: 'py',
+	southafrica: 'za',
+	algeria: 'dz',
+	newzealand: 'nz',
+	czechia: 'cz',
+	turkey: 'tr',
+	austria: 'at',
+	colombia: 'co',
+	egypt: 'eg',
+	haiti: 'ht',
+	bosniaherzegovina: 'ba',
+	panama: 'pa',
+	capeverdeislands: 'cv',
+	congodr: 'cd',
+	ivorycoast: 'ci',
+	jordan: 'jo',
+	iraq: 'iq',
+	uzbekistan: 'uz',
+	// "Curaçao" — ç is stripped by the normalizer, key becomes "curaao"
+	curaao: 'cw'
+};
+
+/** Flag image URL for a nation name/id, or `null` if we have no mapping. */
+export function nationFlagUrl(nation: string): string | null {
+	const code = NATION_CODES[nation.toLowerCase().replace(/[^a-z]/g, '')];
+	return code ? `https://flagcdn.com/h20/${code}.png` : null;
+}
+
+/**
  * PLACEHOLDER player pool. Fictional names and made-up values, used to seed the
  * database (see `src/lib/server/db/seed.ts`) and as a fixture in tests. The real
  * pool is read from the database at runtime via `src/lib/server/players.ts`; the

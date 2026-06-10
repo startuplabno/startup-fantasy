@@ -79,4 +79,26 @@ describe('randomize', () => {
 	it('produces a valid squad from the player pool', () => {
 		expect(isValid(randomize(PLACEHOLDER_PLAYERS, RULES), RULES)).toBe(true);
 	});
+
+	it('produces valid squads at both strategy extremes', () => {
+		for (const attack of [0, 100]) {
+			expect(isValid(randomize(PLACEHOLDER_PLAYERS, RULES, undefined, { attack }), RULES)).toBe(
+				true
+			);
+		}
+	});
+
+	it('leans toward more forwards when fully offensive', () => {
+		const count = (attack: number, position: 'FWD' | 'DEF') => {
+			let total = 0;
+			for (let i = 0; i < 40; i++) {
+				total += randomize(PLACEHOLDER_PLAYERS, RULES, undefined, { attack }).filter(
+					(p) => p.position === position
+				).length;
+			}
+			return total;
+		};
+		expect(count(100, 'FWD')).toBeGreaterThan(count(0, 'FWD'));
+		expect(count(0, 'DEF')).toBeGreaterThan(count(100, 'DEF'));
+	});
 });

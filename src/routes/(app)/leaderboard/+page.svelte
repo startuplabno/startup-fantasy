@@ -5,7 +5,7 @@
 </script>
 
 <section>
-	<h1 class="text-2xl font-bold">Leaderboard</h1>
+	<h1 class="font-display text-3xl font-bold">Leaderboard</h1>
 	<p class="mt-1 text-sm text-gray-600">
 		Rankings are computed and rendered by Novem, embedded here as a live visualization.
 	</p>

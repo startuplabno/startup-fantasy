@@ -85,13 +85,59 @@ export function isValid(players: Player[], rules: SquadRules, ownership?: Owners
 	return validate(players, rules, ownership).length === 0;
 }
 
-function shuffled<T>(items: T[]): T[] {
-	const copy = [...items];
-	for (let i = copy.length - 1; i > 0; i--) {
-		const j = Math.floor(Math.random() * (i + 1));
-		[copy[i], copy[j]] = [copy[j], copy[i]];
+/**
+ * Tactical bias for {@link randomize}. `attack` runs from 0 (park the bus)
+ * to 100 (all-out attack); 50 is neutral and behaves like a plain shuffle.
+ */
+export interface RandomizeStrategy {
+	attack: number;
+}
+
+/**
+ * Weighted shuffle (Efraimidis–Spirakis): items with a higher weight are more
+ * likely to appear early. All weights equal degrades to a uniform shuffle.
+ */
+function weightedShuffle<T>(items: T[], weight: (item: T) => number): T[] {
+	return items
+		.map((item) => ({ item, key: Math.random() ** (1 / Math.max(weight(item), 1e-9)) }))
+		.sort((a, b) => b.key - a.key)
+		.map(({ item }) => item);
+}
+
+/** How attack-minded a formation is, e.g. 3-4-3 scores high, 5-4-1 low. */
+function formationAttackScore(f: Record<Position, number>): number {
+	return f.FWD * 2 + f.MID - f.DEF;
+}
+
+/**
+ * Pick a formation, favouring those whose attack score sits near where the
+ * strategy slider points. `temperature` (0..1) softens the bias so retries
+ * can escape a strategy the pool can't afford.
+ */
+function pickFormation(
+	formations: Record<Position, number>[],
+	attack: number,
+	temperature: number
+): Record<Position, number> {
+	const scores = formations.map(formationAttackScore);
+	const min = Math.min(...scores);
+	const max = Math.max(...scores);
+	const span = max - min || 1;
+	const target = attack / 100;
+
+	const weights = scores.map((s) => {
+		const norm = (s - min) / span;
+		const distance = (norm - target) / 0.35;
+		return Math.exp(-(distance * distance) * (1 - temperature));
+	});
+
+	const total = weights.reduce((a, b) => a + b, 0);
+	let roll = Math.random() * total;
+	for (let i = 0; i < formations.length; i++) {
+		roll -= weights[i];
+		if (roll <= 0) return formations[i];
 	}
-	return copy;
+	return formations[formations.length - 1];
 }
 
 /** Every legal {GK, DEF, MID, FWD} count combination that sums to the squad size. */
@@ -116,12 +162,34 @@ function legalFormations(rules: SquadRules): Record<Position, number>[] {
  * and (when given) the ownership cap. Retries with fresh randomness; returns
  * the first valid squad it finds, or its best attempt if the pool can't satisfy
  * the rules.
+ *
+ * A `strategy` skews both the formation (more forwards vs. more defenders)
+ * and the budget split (star attackers + bargain defenders, or the reverse).
+ * The bias relaxes across retries so a valid squad is still found whenever
+ * the pool allows one.
  */
-export function randomize(pool: Player[], rules: SquadRules, ownership?: Ownership): Player[] {
+export function randomize(
+	pool: Player[],
+	rules: SquadRules,
+	ownership?: Ownership,
+	strategy?: RandomizeStrategy
+): Player[] {
 	assert(pool.length > 0, 'cannot randomize from an empty player pool');
 
 	const formations = legalFormations(rules);
 	assert(formations.length > 0, 'rules produce no legal formation');
+
+	const attack = Math.min(100, Math.max(0, strategy?.attack ?? 50));
+	// -1 = fully defensive, 0 = neutral, +1 = fully offensive.
+	const lean = (attack - 50) / 50;
+	// Where to spend the budget: positive favours expensive players in that
+	// position, negative favours bargains.
+	const spendBias: Record<Position, number> = {
+		GK: 0,
+		DEF: -lean,
+		MID: lean * 0.5,
+		FWD: lean
+	};
 
 	const atCap = (p: Player) =>
 		ownership !== undefined && (ownership.counts[p.id] ?? 0) >= ownership.cap;
@@ -129,14 +197,26 @@ export function randomize(pool: Player[], rules: SquadRules, ownership?: Ownersh
 	let best: Player[] = [];
 
 	for (let attempt = 0; attempt < 200; attempt++) {
-		const formation = formations[Math.floor(Math.random() * formations.length)];
+		// Gradually fade the bias toward a plain shuffle on later attempts.
+		const temperature = attempt / 200;
+		const formation = pickFormation(formations, attack, temperature);
 		const picks: Player[] = [];
 		const nationCount: Record<string, number> = {};
 		let spent = 0;
 
 		for (const position of POSITIONS) {
 			const need = formation[position];
-			const candidates = shuffled(pool.filter((p) => p.position === position && !atCap(p)));
+			const eligible = pool.filter((p) => p.position === position && !atCap(p));
+			const values = eligible.map((p) => p.value);
+			const lo = Math.min(...values);
+			const hi = Math.max(...values);
+			const span = hi - lo || 1;
+			const bias = spendBias[position] * (1 - temperature);
+			const candidates = weightedShuffle(eligible, (p) => {
+				// z in [-1, 1]: where this player's price sits within the position.
+				const z = ((p.value - lo) / span) * 2 - 1;
+				return Math.exp(bias * z * 2.5);
+			});
 			let taken = 0;
 			for (const p of candidates) {
 				if (taken === need) break;
