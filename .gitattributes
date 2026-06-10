@@ -1,0 +1,4 @@
+# Saved football-data.org snapshots: downloaded data, not hand-written source.
+# Mark as vendored so GitHub collapses them in diffs and leaves them out of the
+# repo's language stats.
+src/lib/server/data/fixtures/** linguist-vendored

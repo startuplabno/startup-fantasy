@@ -46,11 +46,20 @@ pnpm db:start
 # 4. Apply the schema to the fresh database
 pnpm db:push
 
-# 5. Start the dev server
+# 5. Fill the database with World Cup teams, players, and fixtures
+pnpm db:seed
+
+# 6. Start the dev server
 pnpm dev
 ```
 
 The app is now running at [http://localhost:5173](http://localhost:5173). Use `pnpm dev --open` to open it automatically.
+
+`pnpm db:seed` loads the 48 nations, their squads, and the group-stage fixtures
+from a saved snapshot of the [football-data.org](https://www.football-data.org/)
+feed (`src/lib/server/data/fixtures`), so it needs no API token. See
+[the data README](src/lib/server/data/README.md) for what the snapshot covers
+and how to refresh it.
 
 ## Project structure
 
@@ -75,6 +84,7 @@ src/
 | `pnpm dev`       | Start the dev server with hot reload          |
 | `pnpm build`     | Build the production app                      |
 | `pnpm preview`   | Preview the production build locally          |
+| `pnpm db:seed`   | Load teams, players, and fixtures into the db |
 | `pnpm check`     | Type-check the project with `svelte-check`    |
 | `pnpm lint`      | Check formatting (Prettier) and lint (ESLint) |
 | `pnpm format`    | Auto-format the codebase                      |
