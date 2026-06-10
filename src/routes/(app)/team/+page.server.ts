@@ -1,6 +1,6 @@
 import type { PageServerLoad } from './$types';
-import { getPlayers } from '$lib/game/players';
 import { getTeam } from '$lib/server/teams';
+import { getPlayersByIds } from '$lib/server/players';
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const team = await getTeam(locals.user!.id);
@@ -10,6 +10,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	return {
 		team: { name: team.name, status: team.status, lockedAt: team.lockedAt },
-		players: getPlayers(team.playerIds)
+		players: await getPlayersByIds(team.playerIds)
 	};
 };
