@@ -28,7 +28,7 @@ export interface FeedMatch {
 	utcDate: string;
 	status: string;
 	stage: string;
-	matchday: number;
+	matchday: number | null;
 	homeTeam: { tla: string | null; name: string | null };
 	awayTeam: { tla: string | null; name: string | null };
 }
