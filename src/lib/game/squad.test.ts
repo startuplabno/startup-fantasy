@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest';
 import { isValid, randomize, summarize, validate } from './squad';
-import { PLAYERS } from './players';
 import type { Player } from './types';
 
 function player(over: Partial<Player> & Pick<Player, 'position'>): Player {
@@ -62,8 +61,19 @@ describe('summarize', () => {
 	});
 });
 
+/** A deep pool across six nations, enough to draft a legal XI from. */
+function pool(): Player[] {
+	const nations = ['A', 'B', 'C', 'D', 'E', 'F'];
+	let n = 0;
+	const make = (position: Player['position'], count: number) =>
+		Array.from({ length: count }, () =>
+			player({ position, nation: nations[n++ % nations.length], value: 5 })
+		);
+	return [...make('GK', 6), ...make('DEF', 18), ...make('MID', 18), ...make('FWD', 12)];
+}
+
 describe('randomize', () => {
 	it('produces a valid squad from the player pool', () => {
-		expect(isValid(randomize(PLAYERS))).toBe(true);
+		expect(isValid(randomize(pool()))).toBe(true);
 	});
 });

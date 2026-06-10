@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { untrack } from 'svelte';
 	import { enhance } from '$app/forms';
-	import { PLAYERS } from '$lib/game/players';
 	import { randomize, summarize, validate } from '$lib/game/squad';
 	import { POSITIONS, POSITION_LABELS, RULES } from '$lib/game/types';
 	import type { ActionData, PageData } from './$types';
@@ -12,11 +11,14 @@
 	let selected = $state<string[]>(untrack(() => [...data.selectedIds]));
 	let teamName = $state(untrack(() => data.teamName));
 
-	const byId = new Map(PLAYERS.map((p) => [p.id, p]));
-	const pool = POSITIONS.map((position) => ({
-		position,
-		players: PLAYERS.filter((p) => p.position === position)
-	}));
+	// The player pool comes from the database via the load function.
+	const byId = $derived(new Map(data.players.map((p) => [p.id, p])));
+	const pool = $derived(
+		POSITIONS.map((position) => ({
+			position,
+			players: data.players.filter((p) => p.position === position)
+		}))
+	);
 
 	const selectedPlayers = $derived(
 		selected.map((id) => byId.get(id)).filter((p) => p !== undefined)
@@ -36,7 +38,7 @@
 	}
 
 	function randomizeTeam() {
-		selected = randomize(PLAYERS).map((p) => p.id);
+		selected = randomize(data.players).map((p) => p.id);
 	}
 </script>
 
