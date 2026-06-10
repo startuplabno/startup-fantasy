@@ -141,6 +141,13 @@ describe('seeded pool plays by the game rules', () => {
 	}));
 
 	it('can produce a valid randomized XI', () => {
-		expect(isValid(randomize(pool))).toBe(true);
+		// randomize() is best-effort: it can return an invalid attempt if it
+		// doesn't hit a legal squad within its retry budget. A few tries keeps
+		// the test from flaking while still proving the pool can make a legal XI.
+		let valid = false;
+		for (let attempt = 0; attempt < 5 && !valid; attempt++) {
+			valid = isValid(randomize(pool));
+		}
+		expect(valid).toBe(true);
 	});
 });

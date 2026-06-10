@@ -109,7 +109,7 @@ const MATCH_STATUS: Record<string, MatchRow['status']> = {
 	SCHEDULED: 'scheduled',
 	TIMED: 'scheduled',
 	POSTPONED: 'scheduled',
-	SUSPENDED: 'scheduled',
+	SUSPENDED: 'live',
 	IN_PLAY: 'live',
 	PAUSED: 'live',
 	FINISHED: 'finished',
