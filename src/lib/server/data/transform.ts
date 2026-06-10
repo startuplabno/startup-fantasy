@@ -86,9 +86,14 @@ const KNOCKOUT_GAMEWEEK: Record<string, number> = {
 	FINAL: 8
 };
 
-export function gameweekFor(stage: string, matchday: number): number {
+export function gameweekFor(stage: string, matchday: number | null): number {
 	if (stage === 'GROUP_STAGE') {
-		assert(matchday >= 1 && matchday <= 3, `group matchday out of range: ${matchday}`);
+		// Group matches always carry a matchday; knockout matches may have none
+		// in the feed, but the stage decides their gameweek below.
+		assert(
+			matchday !== null && matchday >= 1 && matchday <= 3,
+			`group matchday out of range: ${matchday}`
+		);
 		return matchday;
 	}
 	const gameweek = KNOCKOUT_GAMEWEEK[stage];

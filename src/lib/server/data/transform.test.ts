@@ -51,6 +51,10 @@ describe('gameweekFor', () => {
 		expect(gameweekFor('THIRD_PLACE', 1)).toBe(8);
 	});
 
+	it('handles knockout matches with no matchday in the feed', () => {
+		expect(gameweekFor('LAST_32', null)).toBe(4);
+	});
+
 	it('rejects an unknown stage', () => {
 		expect(() => gameweekFor('FRIENDLY', 1)).toThrow();
 	});
