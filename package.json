@@ -20,6 +20,7 @@
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit migrate",
 		"db:seed": "tsx --env-file=.env scripts/seed.ts",
+		"db:seed:demo": "tsx --env-file=.env scripts/seed-demo.ts",
 		"db:ingest": "tsx src/lib/server/db/ingest.ts",
 		"db:studio": "drizzle-kit studio",
 		"auth:schema": "better-auth generate --config src/lib/server/auth.ts --output src/lib/server/db/auth.schema.ts --yes"
